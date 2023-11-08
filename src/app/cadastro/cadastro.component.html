@@ -1,0 +1,55 @@
+<body>
+
+  <section class="hero is-success is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="column is-4 is-offset-4">
+
+          <div class="boxAll">
+
+            <div class="imagem">
+              <img src="../../assets/img/cadastro.png" alt="pngAnimals">
+              <div class="wrapper">
+                <form (ngSubmit)="submitForm()">
+                  <h1>Cadastro</h1>
+
+                  <div class="input-box">
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" [(ngModel)]="usuario.nome" name="nome" required><br>
+                </div>
+
+                <div class="input-box">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" [(ngModel)]="usuario.email" name="email" required><br>
+                </div>
+
+                <div class="input-box">
+                  <label for="senha">Senha:</label>
+                  <input type="password" id="senha" [(ngModel)]="usuario.senha" name="senha" required><br>
+                </div>
+
+                <br>
+                  <div class="remember-forgot">
+                    <label> <input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="btn">Cadastrar</button>
+
+                  <div class="register-link">
+                    <p>Do you have an account?<a href="/Componentes/login/login.html">Login</a> </p>
+                  </div>
+
+
+                </form>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
