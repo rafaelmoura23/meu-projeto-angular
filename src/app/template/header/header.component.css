@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: #ffffff;
+}
+
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+  font-family: 'Marcellus', serif;
+}
+
+header.rolagem{
+  background-color: transparent;
+  padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+  color: #000000;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn-contato button{
+  width: 120px;
+  height: 40px;
+  border: 0;
+  background-color: #4c975b;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  border: none; 
+  border-radius: 40px;
+  font-family: 'Marcellus', serif;
+}

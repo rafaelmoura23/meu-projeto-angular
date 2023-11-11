@@ -1,18 +1,54 @@
-<div>
-    <h2>Login</h2>
-    <form (submit)="login()">
-      <label for="username">Nome de Usuário:</label>
-      <input type="text" id="username" name= "username" [(ngModel)]="username" required><br>
-  
-      <label for="password">Senha:</label>
-      <input type="password" id="password" name="password" [(ngModel)]="password" required><br>
-  
-      <button type="submit">Entrar</button>
-    </form>
-  </div>
+<body>
 
-  <div *ngIf="successMessage" class="success-message">
-    {{ successMessage }}
-  </div>
-  
-  
+  <section class="hero is-success is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <div class="column is-4 is-offset-4">
+
+          <div class="boxAll">
+
+            <div class="imagem">
+              <img src="..//../assets/img/login.png" alt="pngAnimals">
+              <div class="wrapper">
+                <form (submit)="login()">
+                  <h1>Login</h1>
+                  <div class="input-box">
+                    <input type="text" name="username" id="username" placeholder="Email" [(ngModel)]="username"
+                      required>
+                    <i class='bx bxs-user'></i>
+                  </div>
+                  <div class="input-box">
+                    <input type="password" name="password" id="password" placeholder="password" [(ngModel)]="password"
+                      required>
+                    <i class='bx bxs-lock-alt'></i>
+                  </div>
+
+                  <div class="remember-forgot">
+                    <label> <input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                  </div>
+
+                  <button type="submit" class="btn">Login</button>
+
+                  <div *ngIf="successMessage" class="success-message">
+                    {{ successMessage }}
+                  </div>
+
+                  <div class="register-link">
+                    <p>Don't have an account?<a href="/cadastro">Register</a> </p>
+                  </div>
+
+
+                </form>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
