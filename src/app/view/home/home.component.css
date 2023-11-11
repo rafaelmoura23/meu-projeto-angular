@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.banner{
+    height: 100vh;
+    background-image: url(..//../../assets/img/field-grass-landscape-farm.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Marcellus', serif;
+  }
+  
+  .initial{
+    margin-left: -500px;
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Marcellus', serif;
+    width: 700px;
+    letter-spacing: 5px;
+    word-wrap:10px;
+    margin-top: 150px;
+    background-color: #0000003b;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  
+  .initial span{
+    color: #4c975b;
+  }
+  
+  .imagem img{
+    border-radius: 20px;
+  }
+  
+  .initial button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #EE9C2E;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    border: none; 
+    border-radius: 40px;
+    font-family: 'Marcellus', serif;
+  }
+  
+  .second{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

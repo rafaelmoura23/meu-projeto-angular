@@ -1,16 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
 
-body{
-  background-color: #ffffff;
-}
+
 
 .container{
   max-width: 1280px;
@@ -25,7 +17,7 @@ body{
 
 header{
   width: 100%;
-  padding: 60px 4%;
+  /* padding: 40px 4%; */
   position: fixed;
   top: 0;
   left: 0;
@@ -33,14 +25,14 @@ header{
   font-family: 'Marcellus', serif;
 }
 
-header.rolagem{
+/* header.rolagem{
   background-color: transparent;
   padding: 20px 4%;
 }
 
 header.rolagem a, header.rolagem i{
   color: #000000;
-}
+} */
 
 header ul{
   list-style-type: none;
