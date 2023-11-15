@@ -1,62 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Merriweather&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-
-
-
-
-.container{
+.container1 {
   max-width: 1280px;
   margin: auto;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header{
+header {
   width: 100%;
-  /* padding: 40px 4%; */
-  position: fixed;
+  margin-top: 50px;
+  position: absolute;
   top: 0;
   left: 0;
   transition: .5s;
   font-family: 'Marcellus', serif;
+  display: flex;
 }
 
-/* header.rolagem{
-  background-color: transparent;
-  padding: 20px 4%;
-}
-
-header.rolagem a, header.rolagem i{
-  color: #000000;
-} */
-
-header ul{
+header ul {
   list-style-type: none;
 }
 
-header ul li{
+header ul li {
   display: inline-block;
   margin: 0 40px;
+
 }
 
-header ul li a{
+header ul li a {
   color: #000000;
   text-decoration: none;
+  font-size: 20px;
 }
 
-.btn-contato button{
-  width: 120px;
-  height: 40px;
+header ul li a:hover {
+  color: #4c975b;
+  font-size: 25px;
+}
+
+
+.btn-contato button {
+  width: 125px;
+  height: 50px;
+  font-size: 25px;
   border: 0;
   background-color: #4c975b;
   color: #fff;
   cursor: pointer;
   transition: .2s;
-  border: none; 
+  border: none;
+  padding: 5px;
   border-radius: 40px;
   font-family: 'Marcellus', serif;
+}
+
+.btn-contato button:hover {
+  background-color: #EE9C2E;
 }
