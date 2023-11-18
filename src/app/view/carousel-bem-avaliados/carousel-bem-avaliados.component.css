@@ -8,6 +8,7 @@
   max-width: 1500px;
   width: 100%;
   position: relative; 
+
 }
 .wrapper1 i {
   top: 50%;
@@ -40,10 +41,15 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
-  border-radius: 8px;
+  border-radius: 10px;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
+
+.card1{
+  box-shadow: 0px 0px 5px #242424;
+}
+
 
 .carouselProducts1::-webkit-scrollbar {
   display: none;
@@ -51,34 +57,79 @@
 
 .carouselProducts1 .card1 {
   scroll-snap-align: start;
-  height: 342px;
+  height: 360px;
   list-style: none;
   background: rgb(146, 132, 23);
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
-  border-radius: 8px;
+  border-radius: 20px;
   text-align: center;
 }
 
 .card1 .img img{
-  margin-top: 40px;
+  margin-top: 25px;
   width: 100px;
   height: 100px;
 }
 
 .product-price1{
   font-size: 30px;
+  color: #fff;
+  text-shadow: 0px 0px 7px #000;
 }
 
+
 .button1{
-  font-size: 25px;
+  font-size: 22px;
   text-decoration: none;
   border-radius: 15px;
+  width: 200px;
   padding: 5px;
   background-color: aquamarine;
   margin-top: 5px;
   border: none;
   color: black;
+  box-shadow: 0px 0px 7px #000;
 
+}
+
+.desconto{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desconto svg{
+  margin-top: 7px;
+  margin-right: 7px;
+}
+
+.desconto button{
+  margin-top: 7px;
+  margin-left: 7px;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 19px;
+  font-weight: bold;
+  color:white;
+  background-color: rgb(77, 255, 0);
+  box-shadow: 0px 0px 7px #000;
+}
+
+.product-title1{
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.author-title1{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cartIcon{
+  float: right;
+  margin-top: 11px;
+  margin-right: 10px;
 }
