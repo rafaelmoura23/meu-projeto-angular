@@ -36,7 +36,7 @@
 .wrapper1 .carouselProducts1{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 5) - 12px);
+  grid-auto-columns: calc((100% / 5) - 10px);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
