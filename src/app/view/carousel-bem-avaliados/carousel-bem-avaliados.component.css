@@ -24,33 +24,15 @@
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 } 
- .wrapper1 i:active{
-  transform: translateY(-50%) scale(0.85);
-} 
-.card1 .botao-cards{
-  background-color: #000000;
-  border: none;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.card1 .botao-cards:hover{
-  background-color: rgb(171, 210, 72);
-  
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
 
 .wrapper1 i:first-child{
-  left: -22px;
+  left: -50px;
 }
 
 .wrapper1 i:last-child{
   right: -22px;
 }
+
 .wrapper1 .carouselProducts1{
   display: grid;
   grid-auto-flow: column;
@@ -62,6 +44,7 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
+
 .carouselProducts1::-webkit-scrollbar {
   display: none;
 }
@@ -82,20 +65,3 @@
   width: 140px;
   height: 160px;
 }
-
-.carouselProducts1 .card1 h2 {
-  font-weight: 500;
-  font-size: 1.56rem;
-  margin: 30px 0 5px;
-}
-.carouselProducts1 .card1 span {
-  color: #aca8be;
-  font-size: 1.31rem;
-  margin-bottom: 5%;
-}
-
- .containerProducts1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} 
