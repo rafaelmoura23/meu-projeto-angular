@@ -12,6 +12,7 @@ import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { ProdutosComponent } from './view/produtos/produtos.component';
 import { SobreComponent } from './view/sobre/sobre.component';
+import { CarouselBemAvaliadosComponent } from './view/carousel-bem-avaliados/carousel-bem-avaliados.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { SobreComponent } from './view/sobre/sobre.component';
     FooterComponent,
     ProdutosComponent,
     SobreComponent,
+    CarouselBemAvaliadosComponent,
   ],
   imports: [
     BrowserModule,

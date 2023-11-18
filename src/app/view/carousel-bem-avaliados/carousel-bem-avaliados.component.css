@@ -1,0 +1,101 @@
+/* CARDS INICIAL */
+.cardsDeProdutos1{
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper1 {
+  max-width: 1500px;
+  width: 100%;
+  position: relative; 
+}
+.wrapper1 i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+} 
+ .wrapper1 i:active{
+  transform: translateY(-50%) scale(0.85);
+} 
+.card1 .botao-cards{
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.card1 .botao-cards:hover{
+  background-color: rgb(171, 210, 72);
+  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+
+.wrapper1 i:first-child{
+  left: -22px;
+}
+
+.wrapper1 i:last-child{
+  right: -22px;
+}
+.wrapper1 .carouselProducts1{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 5) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carouselProducts1::-webkit-scrollbar {
+  display: none;
+}
+
+.carouselProducts1 .card1 {
+  scroll-snap-align: start;
+  height: 342px;
+  list-style: none;
+  background: #177792;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card1 .img img{
+  width: 140px;
+  height: 160px;
+}
+
+.carouselProducts1 .card1 h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+  margin: 30px 0 5px;
+}
+.carouselProducts1 .card1 span {
+  color: #aca8be;
+  font-size: 1.31rem;
+  margin-bottom: 5%;
+}
+
+ .containerProducts1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 

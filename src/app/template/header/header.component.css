@@ -67,3 +67,32 @@ header ul li a:hover {
   box-shadow: 0px 0px 7px #000000;
 }
 
+/* Seus estilos anteriores... */
+
+/* Estilos para o menu hamburguer e dispositivos menores */
+.hamburger-menu {
+  display: none; /* Ocultar o menu hamburguer em telas maiores */
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+.menu {
+  display: none; /* Ocultar o menu principal em telas menores */
+}
+
+.menu.active {
+  display: block; /* Exibir o menu principal ao clicar no ícone hamburguer */
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-menu {
+    display: block; /* Exibir o menu hamburguer em telas menores */
+  }
+}
