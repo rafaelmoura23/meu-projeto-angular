@@ -281,7 +281,7 @@ border-radius: 15px;
 .wrapper .carouselProducts{
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 5) - 12px);
+  grid-auto-columns: calc((100% / 5));
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
