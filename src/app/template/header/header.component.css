@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 
 .container1 {
-  max-width: 1280px;
+  max-width: 1600px;
   margin: auto;
 }
 
@@ -8,6 +9,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+header img{
+  height: 160px;
 }
 
 header {
@@ -18,6 +23,9 @@ header {
   left: 0;
   transition: .5s;
   font-family: 'Marcellus', serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 header ul {
@@ -35,16 +43,16 @@ header ul li a {
   font-size: 20px;
   background-color: #7b7b7b;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   color: black;
-  background-color: #EE9C2E;
+  background-color: #A8B16B;
   box-shadow: 0px 0px 5px #000000;
+  letter-spacing: 1px;
 }
 
 header ul li a:hover {
   box-shadow: 0px 0px 10px #000000;
 }
-
 
 .btn-contato button {
   width: 125px;
@@ -67,32 +75,3 @@ header ul li a:hover {
   box-shadow: 0px 0px 7px #000000;
 }
 
-/* Seus estilos anteriores... */
-
-/* Estilos para o menu hamburguer e dispositivos menores */
-.hamburger-menu {
-  display: none; /* Ocultar o menu hamburguer em telas maiores */
-  cursor: pointer;
-}
-
-.bar {
-  width: 25px;
-  height: 3px;
-  background-color: #000;
-  margin: 5px 0;
-  transition: 0.4s;
-}
-
-.menu {
-  display: none; /* Ocultar o menu principal em telas menores */
-}
-
-.menu.active {
-  display: block; /* Exibir o menu principal ao clicar no ícone hamburguer */
-}
-
-@media screen and (max-width: 768px) {
-  .hamburger-menu {
-    display: block; /* Exibir o menu hamburguer em telas menores */
-  }
-}
