@@ -1,25 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
-.carrosel {
-  width: 1200px;
-  height: 600px;
-  margin-top: 50px;
-  border-radius: 25px;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  position: relative;
-  margin-top: 400px;
+
+.banner {
+  height: 100vh;
+  background-image: url(..//../../assets/img/field-grass-landscape-farm.jpg);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Marcellus', serif;
 }
 
-.carrosel img {
-  border-radius: 25px;
-  height: 600px;
+.initial {
+  color: #ffffff;
+  font-family: 'Marcellus', serif;
+  background-color: #404040;
+  box-shadow: 0px 0px 5px #000;
+  width: 700px;
+  letter-spacing: 5px;
+  padding: 15px;
+  border-radius: 20px;
 }
 
-.carousel-inner {
-  border-radius: 25px;
+.initial span {
+  color: #4c975b;
+}
+
+.imagem img {
+  border-radius: 20px;
+}
+
+.initial button {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  font-size: 20px;
+  background-color: #EE9C2E;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  padding: 7px;
+  box-shadow: 0px 0px 5px #000;
+  border-radius: 40px;
+  font-family: 'Marcellus', serif;
+}
+
+.initial button:hover{
+  box-shadow: 0px 0px 10px #000;
+}
+
+.second {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cardsBemAvaliados{
+  display: flex;
+  justify-content: center;
 }
 
 
+/* Carrosel Iniccial ao lado do banner */
 .container {
   max-width: 900px;
   width: 95%;
@@ -152,66 +198,26 @@ border-radius: 15px;
 }
 
 
-.banner {
-  height: 100vh;
-  background-image: url(..//../../assets/img/field-grass-landscape-farm.jpg);
-  background-position: 100% 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  font-family: 'Marcellus', serif;
+
+/* Carrosel Bootstrap */
+
+.carrosel {
+  width: 1500px;
+  margin-top: 50px;
+  border-radius: 25px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: relative;
+  margin-top: 400px;
+  margin-bottom: -200px;
 }
 
-.initial {
-  color: #ffffff;
-  font-family: 'Marcellus', serif;
-  background-color: #404040;
-  box-shadow: 0px 0px 5px #000;
-  width: 700px;
-  letter-spacing: 5px;
-  padding: 15px;
-  border-radius: 20px;
+.carrosel img {
+  border-radius: 25px;
+  height: 600px;
 }
 
-.initial span {
-  color: #4c975b;
+.carousel-inner {
+  border-radius: 25px;
 }
 
-.imagem img {
-  border-radius: 20px;
-}
-
-.initial button {
-  width: 120px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0;
-  font-size: 20px;
-  background-color: #EE9C2E;
-  color: #fff;
-  cursor: pointer;
-  transition: .2s;
-  padding: 7px;
-  box-shadow: 0px 0px 5px #000;
-  border-radius: 40px;
-  font-family: 'Marcellus', serif;
-}
-
-.initial button:hover{
-  box-shadow: 0px 0px 10px #000;
-}
-
-.second {
-  font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.cardsBemAvaliados{
-  display: flex;
-  justify-content: center;
-}
