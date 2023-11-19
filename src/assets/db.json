@@ -1,39 +1,46 @@
 {
-    "produtos": [
-        {
-            "id": 1,
-            "nome": "Desenvolver FrontEnd Jr",
-            "foto": "foto1.jpg",
-            "descricao": "Trabalhar com HTML, CSS e JS",
-            "salario": 4000
-        },
-        {
-            "id": 2,
-            "nome": "Desenvolver BackEnd Pleno",
-            "foto": "foto2.jpg",
-            "descricao": "Trabalhar com Desenvolvimento Web",
-            "salario": 7000
-        },
-        {
-            "id": 3,
-            "nome": "Desenvolver Fullstack Senior",
-            "foto": "foto3.jpg",
-            "descricao": "Trabalhar com Desenvolvimento Web",
-            "salario": 10000
-        },
-        {
-            "id": 4,
-            "nome": "Analista de Dados Jr",
-            "foto": "foto4.jpg",
-            "descricao": "Trabalhar com Dados",
-            "salario": 50000
-        },
-        {
-            "id": "5",
-            "nome": "Analista de TI",
-            "foto": "foto5.jpg",
-            "descricao": "Analisar TI",
-            "salario": "10000"
-        }
-    ]
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Desenvolver FrontEnd Jr",
+      "foto": "foto1.jpg",
+      "descricao": "Trabalhar com HTML, CSS e JS",
+      "salario": 4000
+    },
+    {
+      "id": 2,
+      "nome": "Desenvolver BackEnd Pleno",
+      "foto": "foto2.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 7000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolver Fullstack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com Desenvolvimento Web",
+      "salario": 10000
+    },
+    {
+      "id": 4,
+      "nome": "Analista de Dados Jr",
+      "foto": "foto4.jpg",
+      "descricao": "Trabalhar com Dados",
+      "salario": 50000
+    },
+    {
+      "id": "5",
+      "nome": "Analista de TI",
+      "foto": "foto5.jpg",
+      "descricao": "Analisar TI",
+      "salario": "1500"
+    },
+    {
+      "id": "6",
+      "nome": "produto",
+      "foto": "pedigree_Vital.png",
+      "descricao": "produto animal",
+      "salario": "1520"
+    }
+  ]
 }

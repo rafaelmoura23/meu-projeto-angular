@@ -3,11 +3,11 @@
     flex-direction: row;
     justify-content:space-evenly;
     margin-top: 200px;
-    
+
 }
 
 .lista-produtos .card {
     margin: 50px 10px;
-    min-height: 500px;
+    min-height: 400px;
     background-color: beige;
 }

@@ -29,16 +29,35 @@ app.get('/', (req, res) => {
 
 // Exemplo de rota para inserir um novo usuário
 app.post('/api/usuarios', (req, res) => {
-    const { nome, email, senha } = req.body;
-    const query = `INSERT INTO usuarios (nome, email, senha) VALUES (?, ?, ?)`;
-    db.query(query, [nome, email, senha], (err, result) => {
+  const { nome, email, senha } = req.body;
+  
+  // Verificar se o email já existe no banco de dados
+  const checkQuery = 'SELECT * FROM usuarios WHERE email = ?';
+  db.query(checkQuery, [email], (err, results) => {
+    if (err) {
+      res.status(500).json({ error: 'Erro ao verificar o email.' });
+      return;
+    }
+
+    if (results.length > 0) {
+      res.status(400).json({ error: 'Este email já está cadastrado.' });
+      return;
+    }
+
+    // Se o email não existe, realizar a inserção do usuário
+    const insertQuery = 'INSERT INTO usuarios (nome, email, senha) VALUES (?, ?, ?)';
+    db.query(insertQuery, [nome, email, senha], (err, result) => {
       if (err) {
-        res.status(500).json({ error: err.message }); // Envia uma resposta JSON em caso de erro
+        res.status(500).json({ error: err.message });
       } else {
-        res.json({ message: 'Usuário adicionado com sucesso!' }); // Envia uma resposta JSON em caso de sucesso
+        res.json({ message: 'Usuário adicionado com sucesso!' });
       }
     });
   });
+});
+
+
+
 
   app.post('/api/login', (req, res) => {
     const { username, password } = req.body;

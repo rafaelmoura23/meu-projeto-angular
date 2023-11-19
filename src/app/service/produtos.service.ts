@@ -10,7 +10,7 @@ import { Produto } from '../models/produto.model';
 
 export class ProdutoService {
 
-  private apiUrl = 'http://localhost:3000/produtos'; // Caminho para o arquivo JSON
+  private apiUrl = 'http://localhost:3030/produtos'; // Caminho para o arquivo JSON
   
   constructor(private http: HttpClient) { }
   // Obtém a lista de vagas a partir do arquivo JSON
