@@ -1,0 +1,37 @@
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1500px;
+}
+
+.patrocinador1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+}
+.patrocinador2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+}
+.patrocinador3{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+}
+.patrocinador4{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+}
+.patrocinador5{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+}
