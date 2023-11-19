@@ -7,6 +7,7 @@ import { FooterComponent } from './template/footer/footer.component';
 import { SobreComponent } from './view/sobre/sobre.component';
 import { ProdutosComponent } from './view/produtos/produtos.component';
 import { HomeComponent } from './view/home/home.component';
+import { PainelProdutosComponent } from './view/painel-produtos/painel-produtos.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'sobre', component:SobreComponent},
   {path: 'produtos', component:ProdutosComponent},
+  {path: 'painel-produtos', component:PainelProdutosComponent},
 ];
 
 @NgModule({

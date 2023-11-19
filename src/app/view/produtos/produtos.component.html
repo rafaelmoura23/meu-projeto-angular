@@ -1,1 +1,15 @@
-<p>produtos works!</p>
+<section class="lista-produtos">
+    <!-- Início de um loop ngFor que percorre cada objeto 'vaga' na matriz
+    'vagas' -->
+    <div *ngFor="let produto of produtos">
+        <div class="card" style="width: 18rem;">
+            <img src="assets\img\produtos\{{produto.foto}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Código da Vaga: {{produto.id}}</h5>
+                <h5 class="card-title">Vaga: {{produto.nome}}</h5>
+                <p class="card-text">Descricão da Vaga: {{produto.descricao}}</p>
+                <p class="card-text">Salário: R$ {{produto.salario}},00</p>
+            </div>
+        </div>
+    </div>
+</section>
