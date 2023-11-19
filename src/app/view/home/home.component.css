@@ -64,6 +64,12 @@
   justify-content: center;
 }
 
+.cardsPatrocinadores{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* Carrosel Iniccial ao lado do banner */
 .container {

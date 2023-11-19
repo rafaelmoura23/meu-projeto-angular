@@ -13,6 +13,7 @@ import { FooterComponent } from './template/footer/footer.component';
 import { ProdutosComponent } from './view/produtos/produtos.component';
 import { SobreComponent } from './view/sobre/sobre.component';
 import { CarouselBemAvaliadosComponent } from './view/carousel-bem-avaliados/carousel-bem-avaliados.component';
+import { CardsPatrocinadoresComponent } from './view/cards-patrocinadores/cards-patrocinadores.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CarouselBemAvaliadosComponent } from './view/carousel-bem-avaliados/car
     ProdutosComponent,
     SobreComponent,
     CarouselBemAvaliadosComponent,
+    CardsPatrocinadoresComponent,
   ],
   imports: [
     BrowserModule,
