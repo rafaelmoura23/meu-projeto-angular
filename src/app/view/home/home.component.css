@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 .carrosel {
   width: 1200px;
   height: 600px;
@@ -17,12 +18,6 @@
 .carousel-inner {
   border-radius: 25px;
 }
-
-
-
-
-
-
 
 
 .container {
@@ -232,10 +227,16 @@ border-radius: 15px;
 
 
 
+.cardsDeProdutos{
+  display: flex;
+  justify-content: center;
+}
+
 .wrapper {
   max-width: 1500px;
   width: 100%;
   position: relative; 
+
 }
 .wrapper i {
   top: 50%;
@@ -252,32 +253,12 @@ border-radius: 15px;
   transform: translateY(-50%);
   transition: transform 0.1s linear;
 } 
- .wrapper i:active{
-  transform: translateY(-50%) scale(0.85);
-} 
-.card .botao-cards{
-  background-color: #000000;
-  border: none;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.card .botao-cards:hover{
-  background-color: rgb(171, 210, 72);
-  
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
 
-.wrapper i:first-child{
-  left: -22px;
-}
 
 .wrapper i:last-child{
   right: -22px;
 }
+
 .wrapper .carouselProducts{
   display: grid;
   grid-auto-flow: column;
@@ -289,40 +270,103 @@ border-radius: 15px;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
+
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+
+.card{
+  box-shadow: 0px 0px 5px #242424;
+}
+
+
 .carouselProducts::-webkit-scrollbar {
   display: none;
 }
 
 .carouselProducts .card {
   scroll-snap-align: start;
-  height: 342px;
+  height: 420px;
   list-style: none;
-  background: #177792;
+  background: #F28E36;
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
-  border-radius: 8px;
+  border-radius: 20px;
   text-align: center;
+  font-family: 'Marcellus SC', serif;
 }
 
 .card .img img{
-  width: 140px;
-  height: 160px;
+  margin-top: 25px;
+  width: 170px;
+  height: 150px;
 }
 
-.carouselProducts .card h2 {
-  font-weight: 500;
-  font-size: 1.56rem;
-  margin: 30px 0 5px;
-}
-.carouselProducts .card span {
-  color: #aca8be;
-  font-size: 1.31rem;
-  margin-bottom: 5%;
+.product-price{
+  font-size: 30px;
+  color: #000000;
 }
 
- .containerProducts{
+
+.button{
+  font-size: 22px;
+  text-decoration: none;
+  border-radius: 15px;
+  width: 200px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #4E6424;
+  margin-top: 5px;
+  border: none;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 7px #000;
+}
+
+.button:hover{
+  background-color: #364716;
+  box-shadow: 0px 0px 10px #000;
+  transition: .2s;
+}
+
+.desconto{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-} 
+}
+
+.desconto svg{
+  margin-top: 7px;
+  margin-right: 7px;
+}
+
+.desconto button{
+  margin-top: 7px;
+  margin-left: 7px;
+  border: none;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 19px;
+  font-weight: bold;
+  color:white;
+  background-color: #4E6424;
+  box-shadow: 0px 0px 7px #000;
+}
+
+.product-title{
+  font-weight: bold;
+  font-size: 21px;
+  color: #fff;
+}
+
+.author-title{
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+
+.cartIcon{
+  float: right;
+  margin-top: 11px;
+  margin-right: 10px;
+}

@@ -28,9 +28,6 @@
   transition: transform 0.1s linear;
 } 
 
-.wrapper1 i:first-child{
-  left: -50px;
-}
 
 .wrapper1 i:last-child{
   right: -22px;
@@ -43,9 +40,13 @@
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 16px;
-  border-radius: 10px;
+  border-radius: 8px;
   scroll-behavior: smooth;
   scrollbar-width: none;
+}
+
+.wrapper1 i:active{
+  transform: translateY(-50%) scale(0.85);
 }
 
 .card1{
