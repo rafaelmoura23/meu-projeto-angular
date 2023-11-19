@@ -1,4 +1,6 @@
 /* CARDS INICIAL */
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
 .cardsDeProdutos1{
   display: flex;
   justify-content: center;
@@ -57,26 +59,26 @@
 
 .carouselProducts1 .card1 {
   scroll-snap-align: start;
-  height: 360px;
+  height: 420px;
   list-style: none;
-  background: rgb(146, 132, 23);
+  background: #F28E36;
   cursor: pointer;
   padding-bottom: 15px;
   flex-direction: column;
   border-radius: 20px;
   text-align: center;
+  font-family: 'Marcellus SC', serif;
 }
 
 .card1 .img img{
   margin-top: 25px;
-  width: 100px;
-  height: 100px;
+  width: 170px;
+  height: 150px;
 }
 
 .product-price1{
   font-size: 30px;
-  color: #fff;
-  text-shadow: 0px 0px 7px #000;
+  color: #000000;
 }
 
 
@@ -86,12 +88,18 @@
   border-radius: 15px;
   width: 200px;
   padding: 5px;
-  background-color: aquamarine;
+  font-weight: bold;
+  background-color: #4E6424;
   margin-top: 5px;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   box-shadow: 0px 0px 7px #000;
+}
 
+.button1:hover{
+  background-color: #364716;
+  box-shadow: 0px 0px 10px #000;
+  transition: .2s;
 }
 
 .desconto{
@@ -114,18 +122,20 @@
   font-size: 19px;
   font-weight: bold;
   color:white;
-  background-color: rgb(77, 255, 0);
+  background-color: #4E6424;
   box-shadow: 0px 0px 7px #000;
 }
 
 .product-title1{
   font-weight: bold;
   font-size: 21px;
+  color: #fff;
 }
 
 .author-title1{
   font-weight: bold;
   font-size: 18px;
+  color: #fff;
 }
 
 .cartIcon{
