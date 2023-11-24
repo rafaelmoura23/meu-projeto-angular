@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
 // Exemplo de rota para inserir um novo usuário
 app.post('/api/usuarios', (req, res) => {
   const { nome, email, senha } = req.body;
-  
+
   // Verificar se o email já existe no banco de dados
   const checkQuery = 'SELECT * FROM usuarios WHERE email = ?';
   db.query(checkQuery, [email], (err, results) => {
@@ -61,7 +61,7 @@ app.post('/api/usuarios', (req, res) => {
 
   app.post('/api/login', (req, res) => {
     const { username, password } = req.body;
-  
+
     // Verificar as credenciais no banco de dados
     const query = 'SELECT * FROM usuarios WHERE email = ? AND senha = ?';
     db.query(query, [username, password], (err, results) => {
@@ -69,7 +69,7 @@ app.post('/api/usuarios', (req, res) => {
         res.status(500).json({ error: 'Erro ao verificar as credenciais.' });
         return;
       }
-  
+
       if (results.length === 1) {
         // Credenciais corretas, pode gerar um token de autenticação aqui
         res.json({ message: 'Login bem-sucedido!' });
@@ -79,8 +79,8 @@ app.post('/api/usuarios', (req, res) => {
       }
     });
   });
-  
-  
+
+
 
 // Inicie o servidor
 const PORT = process.env.PORT || 3000;

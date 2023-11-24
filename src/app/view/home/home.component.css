@@ -130,7 +130,6 @@ border-radius: 15px;
   list-style: none;
   margin-bottom: 30px;
   overflow-x: auto;
-  scrollbar-width: none;
   border-radius: 10px;
 }
 
@@ -230,7 +229,7 @@ border-radius: 15px;
 
 .carrosel img {
   border-radius: 25px;
-  height: 600px;
+  height: 700px;
 }
 
 .carousel-inner {
