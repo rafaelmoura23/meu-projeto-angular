@@ -24,6 +24,11 @@
                 </div>
 
                 <div class="input-box">
+                  <label for="cpf">CPF:</label>
+                  <input type="cpf" id="cpf" [(ngModel)]="usuario.cpf" name="cpf" required><br>
+                </div>
+                
+                <div class="input-box">
                   <label for="senha">Senha:</label>
                   <input type="password" id="senha" [(ngModel)]="usuario.senha" name="senha" required><br>
                 </div>

@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(bodyParser.json());
-app.use(cors()); // Use o middleware cors
+app.use(cors());
 
 const db = mysql.createConnection({
   host: 'localhost',
@@ -22,9 +22,10 @@ db.connect((err) => {
   console.log('Conectado ao banco de dados MySQL');
 });
 
+
 // Rotas para manipular dados
-app.get('/', (req, res) => {
-    res.send('Bem-vindo ao meu servidor Node.js!');
+app.get('/', (req, res) => { // req => request | res => response
+    res.send('Bem-vindo ao meu servidor Node.js!'); // => resposta
   });
 
 // Exemplo de rota para inserir um novo usuário
@@ -38,7 +39,6 @@ app.post('/api/usuarios', (req, res) => {
       res.status(500).json({ error: 'Erro ao verificar o email.' });
       return;
     }
-
     if (results.length > 0) {
       res.status(400).json({ error: 'Este email já está cadastrado.' });
       return;
@@ -55,7 +55,6 @@ app.post('/api/usuarios', (req, res) => {
     });
   });
 });
-
 
 
 
@@ -79,7 +78,6 @@ app.post('/api/usuarios', (req, res) => {
       }
     });
   });
-
 
 
 // Inicie o servidor
