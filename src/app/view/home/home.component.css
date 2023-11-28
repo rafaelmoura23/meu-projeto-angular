@@ -103,7 +103,22 @@
   height: 700px;
 }
 
-.carousel-inner {
+.carroselBanners .carousel-inner {
   border-radius: 25px;
 }
 
+.animais .carousel-inner{
+  height: 600px;
+  width: 700px;
+}
+
+.animais{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animais .carousel-inner img{
+  border-radius: 25px;
+  height: 500px;
+}
