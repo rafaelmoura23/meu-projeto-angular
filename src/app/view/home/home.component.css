@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 
 .banner {
   height: 100vh;
@@ -9,20 +10,20 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-family: 'Marcellus', serif;
+  font-family: 'Alfa Slab One', serif;
 }
 
 .horsePart{
   margin-top: 50px;
-  height: 100vh;
-  background-image: url(..//../../assets/img/horse_background.jpg);
+  height: 115vh;
+  background-image: url(..//../../assets/img/Frame_1.png);
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  font-family: 'Marcellus', serif;
+font-family: 'Alfa Slab One', serif;
 }
 
 .horsePart .trofeus img{
@@ -41,13 +42,14 @@
 
 .initial {
   color: #ffffff;
-  font-family: 'Marcellus', serif;
+  font-family: 'Alfa Slab One', serif;
   background-color: #404040;
   box-shadow: 0px 0px 5px #000;
   width: 700px;
   letter-spacing: 5px;
   padding: 15px;
   border-radius: 20px;
+  margin-top: 100px;
 }
 
 .initial span {
@@ -59,7 +61,7 @@
 }
 
 .initial button {
-  width: 120px;
+  width: 170px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -73,7 +75,7 @@
   padding: 7px;
   box-shadow: 0px 0px 5px #000;
   border-radius: 40px;
-  font-family: 'Marcellus', serif;
+font-family: 'Alfa Slab One', serif;
 }
 
 .initial button:hover{
@@ -108,8 +110,6 @@
 }
 
 
-/* Carrosel Iniccial ao lado do banner */
-
 
 
 /* Carrosel Bootstrap */
@@ -123,6 +123,7 @@
   position: relative;
   margin-top: 400px;
   margin-bottom: -200px;
+  
 }
 
 .carrosel img {
@@ -134,18 +135,38 @@
   border-radius: 25px;
 }
 
+
 .animais .carousel-inner{
   height: 600px;
-  width: 700px;
+  width: 800px;
+  margin-top: 120px;
 }
 
 .animais{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 25px;
+}
+
+.animais .carousel-item{
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 25px;
 }
 
 .animais .carousel-inner img{
   border-radius: 25px;
   height: 500px;
+}
+
+.animais .carousel-inner{
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px #000;
+  height: 500px;
+}
+
+.animais .carousel-control-prev{
+  display: none;
+}
+
+.animais .carousel-control-next{
+  display: none;
 }
