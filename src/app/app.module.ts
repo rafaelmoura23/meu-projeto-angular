@@ -14,7 +14,6 @@ import { ProdutosComponent } from './view/produtos/produtos.component';
 import { SobreComponent } from './view/sobre/sobre.component';
 import { CarouselBemAvaliadosComponent } from './view/carousel-bem-avaliados/carousel-bem-avaliados.component';
 import { CardsPatrocinadoresComponent } from './view/cards-patrocinadores/cards-patrocinadores.component';
-import { BeneficiosClientesComponent } from './view/beneficios-clientes/beneficios-clientes.component';
 import { PainelProdutosComponent } from './view/painel-produtos/painel-produtos.component';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 
@@ -30,7 +29,6 @@ import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
     SobreComponent,
     CarouselBemAvaliadosComponent,
     CardsPatrocinadoresComponent,
-    BeneficiosClientesComponent,
     PainelProdutosComponent,
     BemVindoComponent,
   ],
