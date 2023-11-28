@@ -5,33 +5,43 @@
     width: 1500px;
 }
 
-.patrocinador1{
+.patrocinador1 img{
     height: 200px;
     width: 200px;
     background-color: black;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px #000;
+    cursor: pointer;
 }
-.patrocinador2{
+.patrocinador2 img{
     height: 200px;
     width: 200px;
     background-color: black;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px #000;
+    cursor: pointer;
 }
-.patrocinador3{
+.patrocinador3 img{
     height: 200px;
     width: 200px;
     background-color: black;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px #000;
+    cursor: pointer;
 }
-.patrocinador4{
+.patrocinador4 img{
     height: 200px;
     width: 200px;
     background-color: black;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px #000;
+    cursor: pointer;
 }
-.patrocinador5{
+.patrocinador5 img{
     height: 200px;
     width: 200px;
     background-color: black;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px #000;
+    cursor: pointer;
 }

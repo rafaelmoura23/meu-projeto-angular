@@ -12,6 +12,33 @@
   font-family: 'Marcellus', serif;
 }
 
+.horsePart{
+  margin-top: 50px;
+  height: 100vh;
+  background-image: url(..//../../assets/img/horse_background.jpg);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Marcellus', serif;
+}
+
+.horsePart .trofeus img{
+  width: 600px;
+  height: 750px;
+  background-color: #404040;
+  border-radius: 25px;
+  margin-right: 300px;
+  opacity: 75%;
+}
+
+.horsePart .manager{
+  width: 600px;
+  height: 750px;
+}
+
 .initial {
   color: #ffffff;
   font-family: 'Marcellus', serif;
