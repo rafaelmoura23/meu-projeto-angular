@@ -4,8 +4,8 @@
     <label>Id</label><input type="text" name="id" [(ngModel)]="produto.id" /><br />
     <label>Nome</label><input type="text" name="nome" [(ngModel)]="produto.nome" /><br />
     <label>Foto</label><input type="text" name="foto" [(ngModel)]="produto.foto" /><br />
-    <label>Descrição</label><input type="text" name="descricao" [(ngModel)]="produto.descricao" /><br />
-    <label>Salário</label><input type="text" name="salario" [(ngModel)]="produto.salario" /><br />
+    <label>Marca</label><input type="text" name="descricao" [(ngModel)]="produto.descricao" /><br />
+    <label>Preço</label><input type="text" name="salario" [(ngModel)]="produto.salario" /><br />
     <div class="buttonsForms">
         <button type="button" (click)="cadastrar()">Cadastrar produto</button>
         <button type="button" (click)="atualizar(produto.id)">Atualizar produto</button>
@@ -17,10 +17,10 @@
     <table class="table">
         <thead>
             <tr>
-                <th>Código da Vaga</th>
-                <th>Vaga</th>
-                <th>Descrição da Vaga</th>
-                <th>Salário</th>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Marca</th>
+                <th>Preço</th>
                 <th>Ações</th>
             </tr>
         </thead>
