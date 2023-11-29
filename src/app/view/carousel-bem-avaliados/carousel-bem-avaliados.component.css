@@ -1,15 +1,16 @@
 /* CARDS INICIAL */
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 .cardsDeProdutos1{
   display: flex;
   justify-content: center;
+    font-family: 'Alfa Slab One', serif;
 }
 
 .wrapper1 {
   max-width: 1500px;
   width: 100%;
-  position: relative; 
+  position: relative;
 
 }
 .wrapper1 i {
@@ -26,7 +27,8 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.23);
   transform: translateY(-50%);
   transition: transform 0.1s linear;
-} 
+    font-family: 'Alfa Slab One', serif;
+}
 
 
 .wrapper1 i:last-child{
