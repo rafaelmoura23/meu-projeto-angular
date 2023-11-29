@@ -16,6 +16,9 @@ import { CarouselBemAvaliadosComponent } from './view/carousel-bem-avaliados/car
 import { CardsPatrocinadoresComponent } from './view/cards-patrocinadores/cards-patrocinadores.component';
 import { PainelProdutosComponent } from './view/painel-produtos/painel-produtos.component';
 import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
+import { LoginFuncionarioComponent } from './login-funcionario/login-funcionario.component';
+import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-funcionario.component';
+import { TreinamentosComponent } from './treinamentos/treinamentos.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +34,9 @@ import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
     CardsPatrocinadoresComponent,
     PainelProdutosComponent,
     BemVindoComponent,
+    LoginFuncionarioComponent,
+    CadastroFuncionarioComponent,
+    TreinamentosComponent,
   ],
   imports: [
     BrowserModule,
