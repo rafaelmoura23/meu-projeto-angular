@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { UsuarioService } from '../usuario.service';
+import { NgxMaskService } from 'ngx-mask';
 
 @Component({
   selector: 'app-cadastro',
@@ -10,10 +11,13 @@ export class CadastroComponent {
   usuario = {
     nome: '',
     email: '',
-    senha: ''
+    senha: '',
+    cpf:''
   };
 
-  constructor(private usuarioService: UsuarioService) {}
+  constructor(private usuarioService: UsuarioService,
+    private maskService: NgxMaskService
+    ) {}
 
   submitForm() {
     this.usuarioService.cadastrarUsuario(this.usuario)
@@ -24,7 +28,8 @@ export class CadastroComponent {
           this.usuario = {
             nome: '',
             email: '',
-            senha: ''
+            senha: '',
+            cpf:''
           };
         },
         error => {

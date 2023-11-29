@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 .all{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 1500px;
+    font-family: 'Alfa Slab One', serif;
+}
+
+h1{
+  font-family: 'Alfa Slab One', serif;
 }
 
 .patrocinador1 img{
