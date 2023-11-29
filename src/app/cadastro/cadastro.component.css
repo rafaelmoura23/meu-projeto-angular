@@ -101,12 +101,12 @@ body{
 }
 
 .remember-forgot label input{
-    accent-color: white;
+    accent-color: #4E6424;
     margin-right: 3px;
 }
 
 .remember-forgot a {
-    color: #ffffff;
+    color: #4E6424;
     text-decoration: none;
 }
 
@@ -124,7 +124,7 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     cursor: pointer;
     font-size: 16px;
-    color: #F28E36;
+    color: #000;
     font-weight: 600;
 }
 
@@ -135,7 +135,7 @@ body{
 }
 
 .register-link p a {
-    color: #ffffff;
+    color: #4E6424;
     text-decoration: none;
     font-weight: 600;
 }
@@ -143,6 +143,23 @@ body{
 .register-link p a:hover{
     text-decoration: underline;
 }
+
+.wrapper .funcionario{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.funcionario p a {
+    color: #4E6424;
+    text-decoration: none;
+}
+
+.funcionario p a:hover{
+    text-decoration: underline;
+}
+
+
 
 /* Estilos gerais */
 
