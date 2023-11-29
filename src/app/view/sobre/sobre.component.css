@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body{
+  font-family: 'Alfa Slab One', serif;
+  background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/09/17/54892/farm-01.jpg);
+}
+
+.gamb{
+  height: 200px;
+}
+
+.parteOne{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.parteOne h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+.parteOne .escrita{
+  background-color: rgb(218, 216, 216);
+  width: 700px;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #3d3d3d;
+    margin-bottom: 50px;
+}
+
+.imgNice img{
+  height: 800px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
