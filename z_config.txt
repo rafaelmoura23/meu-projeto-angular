@@ -3,3 +3,12 @@ npm install
 
 npx json-server --watch db.json --port 3030 => pasta assets
 
+
+
+
+CREATE TABLE usuarios(
+nome VARCHAR(50) NOT NULL,
+email VARCHAR(50) NOT NULL PRIMARY KEY,
+senha VARCHAR(50) NOT NULL,
+cpf VARCHAR(14) NOT NULL
+)

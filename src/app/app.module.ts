@@ -19,7 +19,6 @@ import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 import { LoginFuncionarioComponent } from './login-funcionario/login-funcionario.component';
 import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-funcionario.component';
 import { TreinamentosComponent } from './treinamentos/treinamentos.component';
-import { NgxMaskService } from 'ngx-mask';
 
 @NgModule({
   declarations: [

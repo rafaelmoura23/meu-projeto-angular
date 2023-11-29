@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { UsuarioService } from '../usuario.service';
-import { NgxMaskService } from 'ngx-mask';
 
 @Component({
   selector: 'app-cadastro',
@@ -15,9 +14,7 @@ export class CadastroComponent {
     cpf:''
   };
 
-  constructor(private usuarioService: UsuarioService,
-    private maskService: NgxMaskService
-    ) {}
+  constructor(private usuarioService: UsuarioService) {}
 
   submitForm() {
     this.usuarioService.cadastrarUsuario(this.usuario)
