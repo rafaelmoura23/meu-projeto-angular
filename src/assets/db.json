@@ -8,13 +8,6 @@
       "salario": "20,00"
     },
     {
-      "id": "2",
-      "nome": "Ração de Cachorro",
-      "foto": "pedigree_Vital.png",
-      "descricao": "Pedigree",
-      "salario": "50,99"
-    },
-    {
       "id": "3",
       "nome": "Graminha para gato",
       "foto": "racao_gato4.png",
@@ -44,10 +37,38 @@
     },
     {
       "id": "7",
-      "nome": "Graminha para Cães",
-      "foto": "racao_gato4.png",
-      "descricao": "Graminha",
-      "salario": "50,36"
+      "nome": "Ração Vital",
+      "foto": "racao_cao.png",
+      "descricao": "Pedigree",
+      "salario": "75,00"
+    },
+    {
+      "id": "8",
+      "nome": "Kit POP para Cães",
+      "foto": "racao_cao1.png",
+      "descricao": "Pet Clean",
+      "salario": "89,90"
+    },
+    {
+      "id": "9",
+      "nome": "Ração Sabor Carne",
+      "foto": "racao_cao2.png",
+      "descricao": "Skipper",
+      "salario": "48,96"
+    },
+    {
+      "id": "10",
+      "nome": "Shampoo + Perfume",
+      "foto": "racao_cao3.png",
+      "descricao": "Dr.Dog",
+      "salario": "40,35"
+    },
+    {
+      "id": "11",
+      "nome": "Ração sabor Frango",
+      "foto": "racao_cao4.png",
+      "descricao": "Special Dog",
+      "salario": "100,00"
     }
   ]
 }
