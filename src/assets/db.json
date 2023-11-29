@@ -6,6 +6,13 @@
       "foto": "racao_gato.png",
       "descricao": "SoftCat",
       "salario": "20"
+    },
+    {
+      "id": "2",
+      "nome": "Ração de Cachorro",
+      "foto": "pedigree_Vital.png",
+      "descricao": "Pedigree",
+      "salario": "50"
     }
   ]
 }
