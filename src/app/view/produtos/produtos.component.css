@@ -27,19 +27,6 @@
     text-align: center;
 }
 
-.linha-cachorro{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.linha-gato{
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-
 .product-price1 {
   font-size: 30px;
   color: #000000;
@@ -117,3 +104,4 @@
   margin-top: 11px;
   margin-right: 10px;
 }
+
