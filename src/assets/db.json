@@ -1,18 +1,11 @@
 {
   "produtos": [
     {
-      "id": "6",
-      "nome": "Ração Animal",
-      "foto": "pedigree_Vital.png",
-      "descricao": "produto animal",
-      "salario": "1520"
-    },
-    {
       "id": "1",
-      "nome": "Ração para Cachorro",
-      "foto": "pedigree_Vital.png",
-      "descricao": "Pedigree",
-      "salario": "50"
+      "nome": "Ração de Gato",
+      "foto": "racao_gato.png",
+      "descricao": "SoftCat",
+      "salario": "20"
     }
   ]
 }
