@@ -27,6 +27,27 @@
       "foto": "racao_gato1.png",
       "descricao": "Whiskas",
       "salario": "27,90"
+    },
+    {
+      "id": "5",
+      "nome": "Ração de Frango",
+      "foto": "racao_gato2.png",
+      "descricao": "Qualidy",
+      "salario": "62,00"
+    },
+    {
+      "id": "6",
+      "nome": "Antipulgas",
+      "foto": "racao_gato3.png",
+      "descricao": "Sanol",
+      "salario": "25,00"
+    },
+    {
+      "id": "7",
+      "nome": "Graminha para Cães",
+      "foto": "racao_gato4.png",
+      "descricao": "Graminha",
+      "salario": "50,36"
     }
   ]
 }
