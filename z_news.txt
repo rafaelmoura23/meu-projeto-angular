@@ -1,0 +1,13 @@
+atualizar telas do figma no github
+atualizar gif do site no github
+porque do uso de tais frameworks
+
+integração com api
+criptografia md5
+tela bem-vindo
+registro de vendas
+botão de logout
+manter o usuario logado
+
+
+
