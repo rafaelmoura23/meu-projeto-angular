@@ -10,8 +10,7 @@ export class CadastroComponent {
   usuario = {
     nome: '',
     email: '',
-    senha: '',
-    cpf:''
+    senha: ''
   };
 
   constructor(private usuarioService: UsuarioService) {}
@@ -25,8 +24,7 @@ export class CadastroComponent {
           this.usuario = {
             nome: '',
             email: '',
-            senha: '',
-            cpf:''
+            senha: ''
           };
         },
         error => {

@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.foto{
+
+}
+
+.banner {
+  height: 100vh;
+  /* background-image: url(..//../../src/assets/img/animal-4054849_640.jpg); */
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Alfa Slab One', serif;
+}
+
+.horsePart {
+  margin-top: 50px;
+  height: 115vh;
+  /* background-image: url(..//../../assets/img/Frame_1.png); */
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Alfa Slab One', serif;
+}
+
+.horsePart .trofeus img {
+  width: 600px;
+  height: 750px;
+  background-color: #404040;
+  border-radius: 25px;
+  margin-right: 300px;
+  opacity: 75%;
+}
+
+.horsePart .manager {
+  width: 600px;
+  height: 750px;
+}
+
+.initial {
+  color: #ffffff;
+  font-family: 'Alfa Slab One', serif;
+  background-color: #404040;
+  box-shadow: 0px 0px 5px #000;
+  width: 700px;
+  letter-spacing: 5px;
+  padding: 15px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.initial span {
+  color: #4c975b;
+}
+
+.imagem img {
+  border-radius: 20px;
+}
+
+.initial button {
+  width: 170px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  font-size: 20px;
+  background-color: #EE9C2E;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s;
+  padding: 7px;
+  box-shadow: 0px 0px 5px #000;
+  border-radius: 40px;
+  font-family: 'Alfa Slab One', serif;
+}
+
+.initial button:hover {
+  box-shadow: 0px 0px 10px #000;
+}
+
+.second {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cardsBemAvaliados {
+  display: flex;
+  justify-content: center;
+}
+
+.cardsPatrocinadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.beneficiosClientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+/* Carrosel Bootstrap */
+
+.carrosel {
+  width: 1500px;
+  margin-top: 50px;
+  border-radius: 25px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  position: relative;
+  margin-top: 400px;
+  margin-bottom: -200px;
+
+}
+
+.carrosel img {
+  border-radius: 25px;
+  height: 700px;
+}
+
+.carroselBanners .carousel-inner {
+  border-radius: 25px;
+}
+
+
+.animais .carousel-inner {
+  height: 600px;
+  width: 800px;
+  margin-top: 120px;
+}
+
+.animais {
+  display: flex;
+  border-radius: 25px;
+}
+
+.animais .carousel-item {
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 25px;
+}
+
+.animais .carousel-inner img {
+  border-radius: 25px;
+  height: 500px;
+}
+
+.animais .carousel-inner {
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px #000;
+  height: 500px;
+}
+
+.animais .carousel-control-prev {
+  display: none;
+}
+
+.animais .carousel-control-next {
+  display: none;
+}

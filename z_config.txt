@@ -2,8 +2,12 @@ npm install -g @angular/cli
 npm install
 
 npx json-server --watch db.json --port 3030 => pasta assets
+node server.js (porta 3000) => pasta meu-projeto-angular
+npm start => pasta meu-projeto-angular
 
 
+ERRO MYSQL:
+SOLUÇÃO: ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 
 
 CREATE TABLE usuarios(
