@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { ProdutoService } from 'src/app/service/produtos.service';
 import { Produto } from 'src/app/models/produto.model';
 import { Pipe, PipeTransform } from '@angular/core';
+import { Router } from '@angular/router';
+import { CarrinhoService } from 'src/app/service/carrinho.service';
 
 @Pipe({
   name: 'filter'
@@ -30,10 +32,9 @@ export class ProdutosComponent implements OnInit {
   carrinhoItens: any[] = []; // Array para armazenar os itens do carrinho
   mostrarCarrinho: boolean = false;
   termoPesquisa: string = '';
-  linhasTitulos: string[] = ['Título 1', 'Título 2', 'Título 3']; // Substitua pelos seus próprios títulos
 
 
-  constructor(private _produtosService: ProdutoService) { }
+  constructor(private _produtosService: ProdutoService, private _carrinhoService: CarrinhoService, private router: Router) { }
   // Injeta o serviço de vagas no construtor do componente
   ngOnInit(): void {
     this.listarProdutos();
@@ -56,7 +57,7 @@ export class ProdutosComponent implements OnInit {
   }
   adicionarAoCarrinho(produto: any) {
     // Adiciona o produto ao carrinho de compras
-    this.carrinhoItens.push(produto);
+    this._carrinhoService.carrinhoItens.push(produto);
     this.mostrarCarrinho = true;
 }
 
@@ -71,4 +72,20 @@ calcularTotal(): number {
   }
   return total;
 }
+fecharPedido() {
+  // Supondo que você já tenha injetado o CarrinhoService no construtor
+  const itensCarrinho = this._carrinhoService.carrinhoItens;
+
+  // Verifica se há itens no carrinho antes de redirecionar para o pagamento
+  if (itensCarrinho.length > 0) {
+    // Redireciona para a página de pagamento e passa os itens do carrinho como parâmetro na URL
+    this.router.navigate(['/pagamento'], { queryParams: { itens: JSON.stringify(itensCarrinho) } });
+  } else {
+    // Caso não haja itens no carrinho, pode adicionar um feedback ou mensagem para o usuário
+    console.log('Seu carrinho está vazio');
+    // Ou qualquer ação que você deseja realizar quando o carrinho estiver vazio
+  }
+}
+
+
 }

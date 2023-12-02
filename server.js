@@ -45,8 +45,10 @@ app.post('/api/usuarios', (req, res) => {
     }
 
     // Se o email não existe, realizar a inserção do usuário
+    const crypto = require('crypto');
+    const senhaCriptografada = crypto.createHash('md5').update(senha).digest('hex'); // CRIPTOGRAFIA DA SENHA DO USUÁRIO
     const insertQuery = 'INSERT INTO usuarios (nome, email, senha) VALUES (?, ?, ?)';
-    db.query(insertQuery, [nome, email, senha], (err, result) => {
+    db.query(insertQuery, [nome, email, senhaCriptografada], (err, result) => {
       if (err) {
         res.status(500).json({ error: err.message });
       } else {

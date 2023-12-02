@@ -13,7 +13,7 @@
             {{ item.nome }} - R$ {{ item.salario }}</li>  <!-- Exibe o nome e o preço -->
     </ul>
     <p>Total: R$ {{ calcularTotal() }}</p> <!-- Exibe o total do carrinho -->
-    <button> Fechar Pedido </button>
+    <button (click)="fecharPedido()">Fechar Pedido</button>
 </div>
 
 <section class="lista-produtos">
@@ -21,7 +21,7 @@
     'vagas' -->
     <div *ngFor="let produto of produtos | filter: termoPesquisa; ">
         <!-- Conteúdo do card do produto -->
-    
+
         <div class="card" style="width: 18rem;">
           <div class="desconto">
               <button>10% OFF</button>

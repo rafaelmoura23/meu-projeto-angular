@@ -1,0 +1,17 @@
+<h2>Itens do Carrinho</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Produto</th>
+      <th>Preço</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of carrinhoItens">
+      <td>{{ item.nome }}</td>
+      <td>R$ {{ item.salario }}</td>
+    </tr>
+  </tbody>
+</table>
+
+

@@ -12,6 +12,7 @@ import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 import { TreinamentosComponent } from './treinamentos/treinamentos.component';
 import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-funcionario.component';
 import { LoginFuncionarioComponent } from './login-funcionario/login-funcionario.component';
+import { PaymentComponent } from './payment/payment.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'treinamentos', component:TreinamentosComponent},
   {path: 'cadastroFuncionario', component:CadastroFuncionarioComponent},
   {path: 'loginFuncionario', component:LoginFuncionarioComponent},
+  { path: 'pagamento', component: PaymentComponent }, // rota para o componente de pagamento
 ];
 
 @NgModule({

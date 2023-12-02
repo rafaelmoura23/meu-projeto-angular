@@ -12,6 +12,10 @@ SOLUÇÃO: ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password B
 
 CREATE TABLE usuarios(
 nome VARCHAR(50) NOT NULL,
-email VARCHAR(50) NOT NULL PRIMARY KEY,
-senha VARCHAR(50) NOT NULL
+email VARCHAR(50) NOT NULL,
+senha VARCHAR(50) NOT NULL,
+PRIMARY KEY(email)
 )
+
+INSERT INTO `usuarios` VALUES ('Rafael Moura','rafael@gmail.com', '123');
+SELECT * FROM usuarios
