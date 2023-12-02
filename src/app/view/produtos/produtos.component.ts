@@ -57,7 +57,8 @@ export class ProdutosComponent implements OnInit {
   }
   adicionarAoCarrinho(produto: any) {
     // Adiciona o produto ao carrinho de compras
-    this._carrinhoService.carrinhoItens.push(produto);
+    // this._carrinhoService.carrinhoItens.push(produto);
+    this.carrinhoItens.push(produto);
     this.mostrarCarrinho = true;
 }
 

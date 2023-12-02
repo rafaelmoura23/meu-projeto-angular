@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { UsuarioService } from '../usuario.service';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-cadastro',
@@ -13,7 +15,7 @@ export class CadastroComponent {
     senha: ''
   };
 
-  constructor(private usuarioService: UsuarioService) {}
+  constructor(private usuarioService: UsuarioService, private router: Router) {}
 
   submitForm() {
     this.usuarioService.cadastrarUsuario(this.usuario)
@@ -21,11 +23,8 @@ export class CadastroComponent {
         response => {
           console.log('Usuário cadastrado com sucesso!', response);
           // Limpar o formulário após o cadastro
-          this.usuario = {
-            nome: '',
-            email: '',
-            senha: ''
-          };
+          this.router.navigate(['/login']);
+
         },
         error => {
           console.error('Erro ao cadastrar usuário', error);
