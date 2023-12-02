@@ -6,10 +6,11 @@
     <ul class="lista-de-itens">
         <!-- Os itens do carrinho serão exibidos aqui -->
         <li *ngFor="let item of carrinhoItens">
-            <img [src]="item.foto" width="50"> <!-- Exibe a foto do produto -->
-            {{ item.produto.foto }} {{ item.produto.nome }} - R$ {{ item.salario }}</li>
+            <img src="assets\img\produtos\{{item.foto}}" width="50"> <!-- Exibe a foto do produto -->
+            {{ item.foto }} {{ item.nome }} - R$ {{ item.salario }}</li>
     </ul>
     <p>Total: R$ {{ calcularTotal() }}</p> <!-- Exibe o total do carrinho -->
+    <button> Fechar Pedido </button>
 </div>
 
 <section class="lista-produtos">
