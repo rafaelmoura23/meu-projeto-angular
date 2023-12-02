@@ -12,7 +12,7 @@ export class Produto {
         nome: string,
         foto: string,
         descricao: string,
-        salario: number
+        salario: number,
     ) {
         this.id = id;
         this.nome = nome;
