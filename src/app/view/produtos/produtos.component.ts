@@ -2,6 +2,22 @@
 import { Component, OnInit } from '@angular/core';
 import { ProdutoService } from 'src/app/service/produtos.service';
 import { Produto } from 'src/app/models/produto.model';
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({
+  name: 'filter'
+})
+export class FilterPipe implements PipeTransform {
+  transform(items: any[], termoPesquisa: string): any[] {
+    if (!items || !termoPesquisa) {
+      return items;
+    }
+
+    return items.filter(item =>
+      item.nome.toLowerCase().includes(termoPesquisa.toLowerCase())
+    );
+  }
+}
 
 @Component({
   selector: 'app-produtos',
@@ -13,9 +29,7 @@ export class ProdutosComponent implements OnInit {
   public produtos: Produto[] = []; // Uma matriz para armazenar as vagas
   carrinhoItens: any[] = []; // Array para armazenar os itens do carrinho
   mostrarCarrinho: boolean = false;
-
-
-
+  termoPesquisa: string = '';
 
   constructor(private _produtosService: ProdutoService) { }
   // Injeta o serviço de vagas no construtor do componente

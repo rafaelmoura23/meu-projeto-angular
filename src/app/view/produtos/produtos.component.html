@@ -1,5 +1,8 @@
 <button class="botaoCarrinhoCompras" (click)="toggleCarrinho()">Abrir Carrinho</button>
 
+<input type="text" [(ngModel)]="termoPesquisa" placeholder="Pesquisar por nome do produto">
+
+
 <!-- Seção do carrinho de compras (defina a classe 'escondido' para ocultar inicialmente) -->
 <div class="carrinho" [ngClass]="{'escondido': !mostrarCarrinho}">
     <h3>Carrinho de Compras</h3>
@@ -16,7 +19,9 @@
 <section class="lista-produtos">
     <!-- Início de um loop ngFor que percorre cada objeto 'vaga' na matriz
     'vagas' -->
-    <div *ngFor="let produto of produtos">
+    <div *ngFor="let produto of produtos | filter: termoPesquisa">
+        <!-- Conteúdo do card do produto -->
+    
         <div class="card" style="width: 18rem;">
           <div class="desconto">
               <button>10% OFF</button>

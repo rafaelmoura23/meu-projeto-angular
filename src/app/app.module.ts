@@ -10,7 +10,7 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './view/home/home.component';
 import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
-import { ProdutosComponent } from './view/produtos/produtos.component';
+import { FilterPipe, ProdutosComponent } from './view/produtos/produtos.component';
 import { SobreComponent } from './view/sobre/sobre.component';
 import { CarouselBemAvaliadosComponent } from './view/carousel-bem-avaliados/carousel-bem-avaliados.component';
 import { CardsPatrocinadoresComponent } from './view/cards-patrocinadores/cards-patrocinadores.component';
@@ -19,6 +19,7 @@ import { BemVindoComponent } from './bem-vindo/bem-vindo.component';
 import { LoginFuncionarioComponent } from './login-funcionario/login-funcionario.component';
 import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-funcionario.component';
 import { TreinamentosComponent } from './treinamentos/treinamentos.component';
+
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { TreinamentosComponent } from './treinamentos/treinamentos.component';
     LoginFuncionarioComponent,
     CadastroFuncionarioComponent,
     TreinamentosComponent,
+    FilterPipe,
   ],
   imports: [
     BrowserModule,
