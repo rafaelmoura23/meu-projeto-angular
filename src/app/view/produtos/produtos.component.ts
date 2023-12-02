@@ -10,6 +10,27 @@ import { Produto } from 'src/app/models/produto.model';
 })
 export class ProdutosComponent implements OnInit {
   public produtos: Produto[] = []; // Uma matriz para armazenar as vagas
+  carrinhoItens: any[] = []; // Array para armazenar os itens do carrinho
+  mostrarCarrinho: boolean = false;
+
+  adicionarAoCarrinho(produto: any) {
+    // Adiciona o produto ao carrinho de compras
+    this.carrinhoItens.push(produto);
+    this.mostrarCarrinho = true;
+}
+
+toggleCarrinho() {
+  this.mostrarCarrinho = !this.mostrarCarrinho; // Função para alternar a visibilidade do carrinho
+}
+
+calcularTotal(): number {
+  let total = 0;
+  for (let item of this.carrinhoItens) {
+      total += parseFloat(item.salario); // Supondo que o preço do produto esteja em 'salario'
+  }
+  return total;
+}
+
   constructor(private _produtosService: ProdutoService) { }
   // Injeta o serviço de vagas no construtor do componente
   ngOnInit(): void {

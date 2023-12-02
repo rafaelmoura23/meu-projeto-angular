@@ -105,3 +105,37 @@
   margin-right: 10px;
 }
 
+
+
+
+/* Estilos para a seção do carrinho */
+.carrinho {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.lista-de-itens {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Estilos para o ícone do carrinho */
+.cartIcon {
+  cursor: pointer;
+}
+
+
+.escondido {
+  display: none; /* Esconde o carrinho quando a classe escondido é aplicada */
+}
+
+.botaoCarrinhoCompras{
+  border-radius: 20px;
+}
+
+

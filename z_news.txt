@@ -8,6 +8,10 @@ tela bem-vindo
 registro de vendas
 botão de logout
 manter o usuario logado
+carrinho de compras
+filtro produtos
+titulo dos cards de produtos
+editar mensagem de sucesso cadastro e login
 
 
 
