@@ -30,7 +30,7 @@ app.get('/', (req, res) => { // req => request | res => response
 
 // Exemplo de rota para inserir um novo usuário
 app.post('/api/usuarios', (req, res) => {
-  const { nome, email, senha, cpf } = req.body;
+  const { nome, email, senha} = req.body;
 
   // Verificar se o email já existe no banco de dados
   const checkQuery = 'SELECT * FROM usuarios WHERE email = ?';
@@ -46,7 +46,7 @@ app.post('/api/usuarios', (req, res) => {
 
     // Se o email não existe, realizar a inserção do usuário
     const insertQuery = 'INSERT INTO usuarios (nome, email, senha) VALUES (?, ?, ?)';
-    db.query(insertQuery, [nome, email, senha, cpf], (err, result) => {
+    db.query(insertQuery, [nome, email, senha], (err, result) => {
       if (err) {
         res.status(500).json({ error: err.message });
       } else {

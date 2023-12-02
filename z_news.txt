@@ -10,7 +10,7 @@ botão de logout
 manter o usuario logado
 carrinho de compras ✅ *falta estilização
 filtro produtos ✅ *falta estilização
-titulo dos cards de produtos
+titulo dos cards de produtos ❌
 editar mensagem de sucesso cadastro e login
 
 
