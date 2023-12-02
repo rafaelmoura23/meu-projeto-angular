@@ -19,7 +19,7 @@
 <section class="lista-produtos">
     <!-- Início de um loop ngFor que percorre cada objeto 'vaga' na matriz
     'vagas' -->
-    <div *ngFor="let produto of produtos | filter: termoPesquisa">
+    <div *ngFor="let produto of produtos | filter: termoPesquisa; ">
         <!-- Conteúdo do card do produto -->
     
         <div class="card" style="width: 18rem;">

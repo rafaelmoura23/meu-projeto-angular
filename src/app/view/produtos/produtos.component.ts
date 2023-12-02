@@ -30,6 +30,8 @@ export class ProdutosComponent implements OnInit {
   carrinhoItens: any[] = []; // Array para armazenar os itens do carrinho
   mostrarCarrinho: boolean = false;
   termoPesquisa: string = '';
+  linhasTitulos: string[] = ['Título 1', 'Título 2', 'Título 3']; // Substitua pelos seus próprios títulos
+
 
   constructor(private _produtosService: ProdutoService) { }
   // Injeta o serviço de vagas no construtor do componente
