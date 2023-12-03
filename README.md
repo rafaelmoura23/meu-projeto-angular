@@ -38,11 +38,12 @@
 ### - [Outros](https://www.figma.com/file/3MOXA2pBxNc3jWURfs90k2/Untitled?type=design&mode=design&t=EDkq14K1So4eBTen-0)
 
 ## `IDENTIDADE VISUAL` 🎨 : 
-- `#EE9C2E`
-- `#F1DEC3`
-- `#F28E36`
-- `#A8B16B`
-- `#4E6424`
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=EE9C2E&repeat=false&random=false&width=435&lines=%23EE9C2E)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F1DEC3&repeat=false&random=false&width=435&lines=%23F1DEC3)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F28E36&repeat=false&random=false&width=435&lines=%23F28E36)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A8B16B&repeat=false&random=false&width=435&lines=%23A8B16B)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4E6424&repeat=false&random=false&width=435&lines=%234E6424)](https://git.io/typing-svg)
+
 
 ## `FUNCIONALIDADES` ⚔ :
 ### - Index
