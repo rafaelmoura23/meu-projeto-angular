@@ -19,12 +19,4 @@ export class HeaderComponent implements OnInit {
     return this.authService.isLoggedIn;
   }
 
-  toggleDropdown(): void {
-    this.showDropdown = !this.showDropdown;
-    this.nomeUsuario = this.authService.getUsername();
-  }
-
-    logout(): void {
-      this.authService.logout();
-    }
   }
