@@ -33,7 +33,8 @@
               "node_modules/popper.js/dist/umd/popper.js",
               "node_modules/bootstrap/dist/js/bootstrap.js",
               "src/app/view/home/script.js",
-              "src/app/view/carousel-bem-avaliados/scriptCar.js"
+              "src/app/view/carousel-bem-avaliados/scriptCar.js",
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {

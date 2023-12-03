@@ -7,8 +7,6 @@ import { AuthService } from 'src/app/auth.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  showDropdown: boolean = false;
-  nomeUsuario: string = '';
 
   constructor(private authService: AuthService) { }
 
@@ -17,6 +15,10 @@ export class HeaderComponent implements OnInit {
 
   isLoggedIn(): boolean {
     return this.authService.isLoggedIn;
+  }
+
+  logout(): void {
+    this.authService.logout();
   }
 
   }
