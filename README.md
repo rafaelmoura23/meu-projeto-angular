@@ -61,9 +61,6 @@
 ### - BackEnd: Node.js
 ### - Banco de Dados: MySQL
 
-## `AUTORES`
-| [<img loading="lazy" src="" width=115><br><sub>Leticia</sub>]() |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770371?v=4" width=115><br><sub>Rafael Moura</sub>](https://github.com/rafaelmoura23) |  [<img loading="lazy" src="" ><br><sub>Matheus</sub>]() |
-| :---: | :---: | :---: |
 
 ## `EXPECTATIVAS 🧠`
 ### Criar um website completo que atenda todas as `expectativas propostas pelos Professores`:
@@ -85,3 +82,7 @@
 <p align="center">
     <img src="https://imagens.mdig.com.br/thbs/45184mn.jpg" height="400" tittle="logo_animalia">
 </p> 
+
+## `AUTORES`
+| [<img loading="lazy" src="" width=115><br><sub>Leticia</sub>]() |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770371?v=4" width=115><br><sub>Rafael Moura</sub>](https://github.com/rafaelmoura23) |  [<img loading="lazy" src="" ><br><sub>Matheus</sub>]() |
+| :---: | :---: | :---: |
