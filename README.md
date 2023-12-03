@@ -4,8 +4,6 @@
     <img src="https://i.pinimg.com/originals/99/9f/6a/999f6a0b233dc991581ea9ee303d24b6.gif" height="400" tittle="logo_animalia">
 </p> 
 
-## `PROPOSTA` :  
-
 ## `OBJETIVO` 🎯:
 ### - Criar um website completo com diversas funcionalidades e proporcionar ao cliente uma experiência agradável que faça com que ele visite o nosso site mais vezes.
 ### - Implementar um site com uma mistura de PetShop com Haras 🧐 `COMO ASSIM?`
@@ -36,6 +34,8 @@
 ## `FIGMA` 🎨 : 
 ### - [Login | Cadastro | Agendamento | Consultas ](https://www.figma.com/file/KY6Jgnkwpvw9S8JeVxxQOP/Untitled?type=design&node-id=0-1&mode=design&t=Y7q5h8RFLVNVCtlX-0)
 ### - [Página Principal | Produtos ](https://www.figma.com/file/Bf5kXF8vOyGe4P697nzNys/Untitled?type=design&mode=design&t=Y7q5h8RFLVNVCtlX-0)
+### - [Banners](https://www.figma.com/file/aC5XRBj3rbvZstw7mt1quQ/Untitled?type=design&node-id=0-1&mode=design&t=EDkq14K1So4eBTen-0)
+### - [Outros](https://www.figma.com/file/3MOXA2pBxNc3jWURfs90k2/Untitled?type=design&mode=design&t=EDkq14K1So4eBTen-0)
 
 ## `IDENTIDADE VISUAL` 🎨 : 
 - `#EE9C2E`
@@ -45,19 +45,19 @@
 - `#4E6424`
 
 ## `FUNCIONALIDADES` ⚔ :
-### - Index (FRONT):
-### - Login (FRONT|BACK):
-### - Cadastro (FRONT|BACK):
-### - Agendamento de Serviços (FRONT|BACK):
-### - Catálogo de Produtos (Carrinho de Compras (JavaScript)) (FRONT|BACK):
-### - Checkout (with API) (BUY) (FRONT|BACK):
+### - Index
+### - Login
+### - Cadastro
+### - Agendamento de Serviços
+### - Catálogo de Produtos (Carrinho de Compras)
+### - Checkout(BUY)
 
 ** ### - *Inserir gifs do site funcionando **
 
 ## `TECNOLOGIAS` 🛠 :
 ### - Versionamento de código: GitHub
 ### - FrontEnd: Angular ( Html | Css | TypeScript )
-### - BackEnd: PHP ( Laravel )
+### - BackEnd: Node.js
 ### - Banco de Dados: MySQL
 
 ## `AUTORES`

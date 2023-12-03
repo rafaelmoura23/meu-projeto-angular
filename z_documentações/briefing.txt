@@ -1,0 +1,30 @@
+1. criação das páginas iniciais
+- página de login
+- página de cadastro
+- página de contato
+- página p/ marcar consulta
+- página p/ fazer reservas
+- página p/ produtos/compra
+- página p/ efetuar a compra (checkout)
+- carrinho de compras
+- gerar relatório (datalog)
+
+2. Requisitos:
+- Responsividade
+- Usabilidade e Design agradável (UX|UI)
+- Integração de APIs
+- Utilização de Frameworks (Angular|PHP)
+- Compatibilidade
+- Testes
+- Documentação
+
+3. Briefing:
+- pesquisar sobre o publico alvo
+- criar slogan | tagline | logo | paleta de cores
+- Prototipagem
+- definição das tecnologias
+- fontes
+
+#"Bem-vindo ao Mundo Animalia: O Paraíso dos Pets!"
+https://www.figma.com/file/cM261ytTrHWce8cH6jZwkq/Untitled?type=design&node-id=0%3A1&mode=design&t=4KeUPTBRWANfeqiw-1
+https://www.youtube.com/watch?v=VcRuVYYH3SE&ab_channel=LunDev
