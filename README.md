@@ -12,7 +12,7 @@
 ### - Criar uma página de venda de produtos de PetShop, porém oferecer treinamentos para animais, incluindo cavalos e também no PetShop incluir produtos para animais mais "selvagens|robustos" como é o cavalo.
 
 ## `TRABALHO EM GRUPO`
-## - [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
+## [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
 
 ## `MARCA` 💡 : 
 ## ANIMALIA 
