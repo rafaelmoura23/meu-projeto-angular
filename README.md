@@ -27,7 +27,7 @@
 
 ## `lOGO` 
 <p align="left">
-    <img src="../Imagens\Logo_animalia.png" height="200" tittle="logo_animalia">
+    <img src="/z_documentações/z_imagens/Logo_animalia.png" height="200" tittle="logo_animalia">
     <p>Gerado por: https://www.bing.com/create </p>
 </p>
 
