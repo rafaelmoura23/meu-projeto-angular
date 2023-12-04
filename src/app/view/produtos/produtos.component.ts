@@ -75,6 +75,7 @@ calcularTotal(): number {
   }
   return total;
 }
+
 fecharPedido() {
   // Supondo que você já tenha injetado o CarrinhoService no construtor
   const itensCarrinho = this.carrinhoItens;

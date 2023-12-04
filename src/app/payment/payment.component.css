@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.pagamentoProducts{
+    font-family: 'Alfa Slab One', serif;
+    padding: 50px;
+}
+
+.pagamentoProducts h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.pagamentoProducts th{
+    font-size: 27px;
+}
+
+.pagamentoProducts td{
+    font-size: 22px;
+}
+
+
+.itens{
+    display: flex;
+    justify-content: space-around;
+}
+
+.preco{
+    color: #4E6424;
+    font: 400;
+}
+
+.btnFinish{
+    padding: 10px;
+    border-style: solid;
+    border-color: #4E6424;
+    border-radius: 15px;
+    color: #4E6424;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+
+.divVazia{
+    height:200px;
+}
