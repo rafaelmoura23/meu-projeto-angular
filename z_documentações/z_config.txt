@@ -1,5 +1,6 @@
 npm install -g @angular/cli
 npm install
+npm install json-server@0.17.4
 
 npx json-server --watch db.json --port 3030 => pasta assets
 node server.js (porta 3000) => pasta meu-projeto-angular

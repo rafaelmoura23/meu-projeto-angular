@@ -13,10 +13,12 @@
 
 .heart{
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .cartProdutos{
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .search{
@@ -25,8 +27,6 @@
   height: 40px;
   padding: 5px;
 }
-
-
 
 
 header img{
