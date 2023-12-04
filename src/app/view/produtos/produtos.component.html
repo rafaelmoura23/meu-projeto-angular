@@ -1,6 +1,6 @@
 <button class="botaoCarrinhoCompras" (click)="toggleCarrinho()">Abrir Carrinho</button>
 
-<input type="text" [(ngModel)]="termoPesquisa" placeholder="Pesquisar por nome do produto">
+<input type="text" class="barraPesquisa" [(ngModel)]="termoPesquisa" placeholder="Pesquisar por nome do produto">
 
 
 <!-- Seção do carrinho de compras (defina a classe 'escondido' para ocultar inicialmente) -->
@@ -13,7 +13,7 @@
             {{ item.nome }} - R$ {{ item.salario }}</li>  <!-- Exibe o nome e o preço -->
     </ul>
     <p>Total: R$ {{ calcularTotal() }}</p> <!-- Exibe o total do carrinho -->
-    <button (click)="fecharPedido()">Fechar Pedido</button>
+    <button class="btnCarrinho" (click)="fecharPedido()">Fechar Pedido</button>
 </div>
 
 <section class="lista-produtos">

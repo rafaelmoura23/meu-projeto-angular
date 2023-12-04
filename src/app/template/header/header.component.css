@@ -14,11 +14,14 @@
 .heart{
   margin-right: 20px;
   cursor: pointer;
+  padding: 2px;
 }
+
 
 .cartProdutos{
   margin-right: 20px;
   cursor: pointer;
+  padding: 2px;
 }
 
 .search{

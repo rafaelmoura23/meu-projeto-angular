@@ -106,6 +106,9 @@
 }
 
 
+.barraPesquisa{
+
+}
 
 
 /* Estilos para a seção do carrinho */
@@ -119,14 +122,18 @@
   padding: 10px;
 }
 
+.carrinho h3{
+  
+}
+
+.carrinho p{
+  font-size: 20px;
+}
+
 .lista-de-itens {
   list-style-type: none;
   padding: 0;
-}
-
-/* Estilos para o ícone do carrinho */
-.cartIcon {
-  cursor: pointer;
+  font-size: 30px;
 }
 
 
@@ -134,8 +141,13 @@
   display: none; /* Esconde o carrinho quando a classe escondido é aplicada */
 }
 
-.botaoCarrinhoCompras{
+.btnCarrinho{
+  display: flex;
+  justify-content: center;
   border-radius: 20px;
+  width: 400px;
+  margin-left: 15px;
+  font-size: 25px;
 }
 
 
