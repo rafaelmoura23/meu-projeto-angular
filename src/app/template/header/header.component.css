@@ -11,8 +11,27 @@
   justify-content: space-between;
 }
 
+.heart{
+  margin-right: 20px;
+}
+
+.cartProdutos{
+  margin-right: 20px;
+}
+
+.search{
+  border-radius: 20px;
+  font-size: 17px;
+  height: 40px;
+  padding: 5px;
+}
+
+
+
+
 header img{
   height: 160px;
+  margin-left: -50px;
 }
 
 header {
@@ -30,28 +49,31 @@ header {
 
 header ul {
   list-style-type: none;
+  background-color: #EE9C2E;
+  border-radius: 25px;
+  padding: 10px;
 }
 
 header ul li {
   display: inline-block;
   margin: 0 40px;
+  padding: 5px;
 }
 
 header ul li a {
-  color: #000000;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
-  background-color: #7b7b7b;
   padding: 10px;
-  border-radius: 25px;
-  color: black;
-  background-color: #EE9C2E;
-  box-shadow: 0px 0px 5px #000000;
   letter-spacing: 1px;
+  background-color: #EE9C2E;
 }
 
 header ul li a:hover {
-  box-shadow: 0px 0px 10px #000000;
+  background-color: #4c975b;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
 }
 
 .btn-contato button {
@@ -66,9 +88,10 @@ header ul li a:hover {
   border: none;
   padding: 5px;
   border-radius: 40px;
-font-family: 'Alfa Slab One', serif;
+  font-family: 'Alfa Slab One', serif;
   box-shadow: 0px 0px 5px #000000;
   margin-top: -15px;
+  margin-left: 10px;
 }
 
 .btn-contato button:hover {
