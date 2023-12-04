@@ -1,27 +1,33 @@
 
 <div class="divVazia">
-
 </div>
 
-<section class="pagamentoProducts"> 
-<h2>Itens do Carrinho</h2>
-<table>
 
+<h2>Itens do Carrinho</h2>
+<section class="pagamentoProducts"> 
+<div class="itensComprar">
+<table>
   <thead>
     <tr>
       <th>Produto</th>
       <th>Preço</th>
     </tr>
   </thead>
-
   <tbody>
     <tr *ngFor="let item of carrinhoItens">
       <td class="fotoItens">  <img src="assets\img\produtos\{{item.foto}}" width="100"> {{ item.nome }}</td>
       <td class="preco" >R$ {{ item.salario }}</td>
     </tr>
   </tbody>
-  <button class="btnFinish" >Finalizar Pedido</button>
 </table>
+</div>
+
+<div class="subTotal">
+  <p class="total">Total {{ carrinhoItens.length }} (Produtos): R$ {{ calcularTotal() }}</p>
+  <button class="btnFinish" >Finalizar Pedido</button>
+</div>
 
 </section>
+
+
 

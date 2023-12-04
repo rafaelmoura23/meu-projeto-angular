@@ -71,7 +71,7 @@ toggleCarrinho() {
 calcularTotal(): number {
   let total = 0;
   for (let item of this.carrinhoItens) {
-      total += parseFloat(item.salario); // Supondo que o preço do produto esteja em 'salario'
+      total += parseFloat(item.salario); 
   }
   return total;
 }
