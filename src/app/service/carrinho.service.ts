@@ -1,4 +1,3 @@
-// carrinho.service.ts
 import { Injectable } from '@angular/core';
 
 @Injectable({
@@ -8,4 +7,5 @@ export class CarrinhoService {
   carrinhoItens: any[] = [];
 
   constructor() { }
+
 }

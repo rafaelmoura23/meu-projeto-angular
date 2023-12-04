@@ -62,6 +62,8 @@ export class ProdutosComponent implements OnInit {
     this.mostrarCarrinho = true;
 }
 
+
+
 toggleCarrinho() {
   this.mostrarCarrinho = !this.mostrarCarrinho; // Função para alternar a visibilidade do carrinho
 }
@@ -75,7 +77,7 @@ calcularTotal(): number {
 }
 fecharPedido() {
   // Supondo que você já tenha injetado o CarrinhoService no construtor
-  const itensCarrinho = this._carrinhoService.carrinhoItens;
+  const itensCarrinho = this.carrinhoItens;
 
   // Verifica se há itens no carrinho antes de redirecionar para o pagamento
   if (itensCarrinho.length > 0) {
