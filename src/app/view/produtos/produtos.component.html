@@ -12,7 +12,7 @@
             <img src="assets\img\produtos\{{item.foto}}" width="50"> <!-- Exibe a foto do produto -->
             {{ item.nome }} - R$ {{ item.salario }}</li>  <!-- Exibe o nome e o preço -->
     </ul>
-    <p>Total: R$ {{ calcularTotal() }}</p> <!-- Exibe o total do carrinho -->
+    <p class="totalPrice" >Total: R$ {{ calcularTotal() }}</p> <!-- Exibe o total do carrinho -->
     <button class="btnCarrinho" (click)="fecharPedido()">Fechar Pedido</button>
 </div>
 

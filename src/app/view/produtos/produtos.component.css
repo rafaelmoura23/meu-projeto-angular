@@ -123,17 +123,19 @@
 }
 
 .carrinho h3{
-  
+  text-align: center;
+  padding: 5px;
+
 }
 
-.carrinho p{
+.totalPrice{
   font-size: 20px;
 }
 
 .lista-de-itens {
   list-style-type: none;
   padding: 0;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
@@ -144,7 +146,7 @@
 .btnCarrinho{
   display: flex;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: 5px;
   width: 400px;
   margin-left: 15px;
   font-size: 25px;
