@@ -113,13 +113,17 @@
 
 /* Estilos para a seção do carrinho */
 .carrinho {
-  position: fixed;
+  position:fixed;
+  font-family: 'Alfa Slab One', serif;
   top: 20px;
   right: 20px;
   width: 450px;
-  background-color: #f9f9f9;
   border: 1px solid #ccc;
   padding: 10px;
+  z-index: 9999;
+  background-color: #4E6424;
+  color: #fff;
+  opacity: 95%;
 }
 
 .carrinho h3{
@@ -129,13 +133,14 @@
 }
 
 .totalPrice{
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .lista-de-itens {
   list-style-type: none;
   padding: 0;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 
@@ -146,10 +151,21 @@
 .btnCarrinho{
   display: flex;
   justify-content: center;
-  border-radius: 5px;
+  border-radius: 15px;
   width: 400px;
   margin-left: 15px;
   font-size: 25px;
+  color: #364716;
+  background-color:  #F28E36;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0px 0px 5px #000;
+
+}
+
+.btnCarrinho:hover{
+  background-color:  #f58523;
+  box-shadow: 0px 0px 10px #000;
 }
 
 
