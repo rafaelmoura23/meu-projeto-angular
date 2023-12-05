@@ -4,7 +4,6 @@
 .cardsDeProdutos1{
   display: flex;
   justify-content: center;
-  font-family: 'Alfa Slab One', serif;
 }
 
 .wrapper1 {
@@ -70,6 +69,9 @@
   flex-direction: column;
   border-radius: 20px;
   text-align: center;
+}
+
+h1{
   font-family: 'Alfa Slab One', serif;
 }
 
