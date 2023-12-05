@@ -20,6 +20,7 @@ import { LoginFuncionarioComponent } from './login-funcionario/login-funcionario
 import { CadastroFuncionarioComponent } from './cadastro-funcionario/cadastro-funcionario.component';
 import { TreinamentosComponent } from './treinamentos/treinamentos.component';
 import { PaymentComponent } from './payment/payment.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 @NgModule({
@@ -41,6 +42,7 @@ import { PaymentComponent } from './payment/payment.component';
     TreinamentosComponent,
     FilterPipe,
     PaymentComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule,

@@ -50,20 +50,20 @@ header {
   align-items: center;
 }
 
-header ul {
+header .ul {
   list-style-type: none;
   background-color: #EE9C2E;
   border-radius: 25px;
   padding: 10px;
 }
 
-header ul li {
+header .ul li {
   display: inline-block;
   margin: 0 40px;
   padding: 5px;
 }
 
-header ul li a {
+header .ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
@@ -72,7 +72,7 @@ header ul li a {
   background-color: #EE9C2E;
 }
 
-header ul li a:hover {
+header .ul li a:hover {
   background-color: #4c975b;
   border-radius: 10px;
   padding: 10px;
