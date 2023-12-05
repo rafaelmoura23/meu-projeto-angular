@@ -4,7 +4,7 @@
 
 
 <h2>Itens do Carrinho</h2>
-<section class="pagamentoProducts"> 
+<section class="pagamentoProducts">
 <div class="itensComprar">
 <table>
   <thead>
@@ -24,7 +24,7 @@
 
 <div class="subTotal">
   <p class="total">Total {{ carrinhoItens.length }} (Produtos): R$ {{ calcularTotal() }}</p>
-  <button class="btnFinish" >Finalizar Pedido</button>
+  <button class="btnFinish" (click)="finalizarPedido()">Finalizar Pedido</button>
 </div>
 
 </section>

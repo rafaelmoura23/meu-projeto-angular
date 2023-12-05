@@ -11,7 +11,7 @@ import { Produto } from '../models/produto.model';
 export class ProdutoService {
 
   private apiUrl = 'http://localhost:3030/produtos'; // Caminho para o arquivo JSON
-  
+
   constructor(private http: HttpClient) { }
   // Obtém a lista de vagas a partir do arquivo JSON
   getProdutos(): Observable<Produto[]> {
@@ -30,5 +30,8 @@ export class ProdutoService {
   removerProduto(id: any): Observable<Produto[]> {
     const urlDeletar = `${this.apiUrl}/${id}`;
     return this.http.delete<Produto[]>(urlDeletar);
+  }
+  salvarItensCarrinho(itensCarrinho: any[]): Observable<any> {
+    return this.http.post<any>(`${this.apiUrl}/itens`, { itens: itensCarrinho });
   }
 }

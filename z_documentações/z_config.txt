@@ -20,3 +20,8 @@ PRIMARY KEY(email)
 
 INSERT INTO `usuarios` VALUES ('Rafael Moura','rafael@gmail.com', '123');
 SELECT * FROM usuarios
+
+CREATE TABLE compras(
+  nome VARCHAR(50) NOT NULL,
+  preco VARCHAR(50) NOT NULL
+)
