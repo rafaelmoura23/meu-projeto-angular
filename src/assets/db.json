@@ -69,6 +69,76 @@
       "foto": "racao_cao4.png",
       "descricao": "Special Dog",
       "salario": "100,00"
+    },
+    {
+      "id": "12",
+      "nome": "Ração Premium",
+      "foto": "racao_coelho.png",
+      "descricao": "Do Campo",
+      "salario": "200,00"
+    },
+    {
+      "id": "13",
+      "nome": "Racão Completa",
+      "foto": "racao_coelho1.png",
+      "descricao": "PicNic",
+      "salario": "54,26"
+    },
+    {
+      "id": "14",
+      "nome": "Super Premium",
+      "foto": "racao_coelho2.png",
+      "descricao": "NuTrópica",
+      "salario": "135,00"
+    },
+    {
+      "id": "15",
+      "nome": "Ração com Frutas",
+      "foto": "racao_coelho3.png",
+      "descricao": "Real Friends",
+      "salario": "25,00"
+    },
+    {
+      "id": "16",
+      "nome": "Racão Coelhos ",
+      "foto": "racao_coelho4.png",
+      "descricao": "Mega Zoo",
+      "salario": "20,00"
+    },
+    {
+      "id": "17",
+      "nome": "Ração para Cavalos",
+      "foto": "racao_horse.png",
+      "descricao": "WL",
+      "salario": "100,00"
+    },
+    {
+      "id": "18",
+      "nome": "Ração Animal Forte",
+      "foto": "racao_horse1.png",
+      "descricao": "Caballo",
+      "salario": "150,00"
+    },
+    {
+      "id": "19",
+      "nome": "Triumph Premium",
+      "foto": "racao_horse2.png",
+      "descricao": "Royal Horse",
+      "salario": "200,00"
+    },
+    {
+      "id": "20",
+      "nome": "Nutrição Animal ",
+      "foto": "racao_horse3.png",
+      "descricao": "Fort",
+      "salario": "140,00"
+    },
+    {
+      "id": "21",
+      "nome": "Ração Equinos",
+      "foto": "racao_horse4.png",
+      "descricao": "PremiX",
+      "salario": "230,25"
     }
   ]
 }
