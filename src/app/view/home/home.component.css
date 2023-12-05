@@ -100,28 +100,6 @@
   margin-bottom: 50px;
 }
 
-.botaoAnimado{
-  margin-top: 50px;
-  margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Alfa Slab One', serif;
-}
-
-.botaoAnimado a{
-  text-decoration: none;
-  font-size: 70px;
-  background-color: #4c975b;
-  padding: 20px;
-  border-radius: 20px;
-  color: #000;
-}
-
-.botaoAnimado a:hover{
-  background-color: #396542;
-}
-
 
 /* Carrosel Bootstrap */
 

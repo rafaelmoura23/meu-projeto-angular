@@ -4,7 +4,7 @@
 .cardsDeProdutos1{
   display: flex;
   justify-content: center;
-    font-family: 'Alfa Slab One', serif;
+  font-family: 'Alfa Slab One', serif;
 }
 
 .wrapper1 {
@@ -27,7 +27,7 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.23);
   transform: translateY(-50%);
   transition: transform 0.1s linear;
-    font-family: 'Alfa Slab One', serif;
+  font-family: 'Alfa Slab One', serif;
 }
 
 
@@ -70,7 +70,7 @@
   flex-direction: column;
   border-radius: 20px;
   text-align: center;
-  font-family: 'Marcellus SC', serif;
+  font-family: 'Alfa Slab One', serif;
 }
 
 .card1 .img img{
@@ -95,7 +95,7 @@
   background-color: #4E6424;
   margin-top: 5px;
   border: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   box-shadow: 0px 0px 7px #000;
 }
 
@@ -124,21 +124,21 @@
   border-radius: 15px;
   font-size: 19px;
   font-weight: bold;
-  color:white;
+  color:rgb(0, 0, 0);
   background-color: #4E6424;
   box-shadow: 0px 0px 7px #000;
 }
 
 .product-title1{
   font-weight: bold;
-  font-size: 21px;
-  color: #fff;
+  font-size: 20px;
+  color: #000000;
 }
 
 .author-title1{
   font-weight: bold;
   font-size: 18px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .cartIcon{
