@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 
 .lista-produtos {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    margin-top: 200px;
     flex-wrap: wrap;
     width: 1800px;
     margin-left: 55px;
@@ -105,9 +105,37 @@
   margin-right: 10px;
 }
 
+.filtroAndCart{
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+}
 
 .barraPesquisa{
+  font-family: 'Alfa Slab One', serif;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: #364716 solid 1px;
+  background-color: antiquewhite;
+  color: #364716;
+}
 
+.botaoCarrinhoCompras{   /* botão para mostrar e esconder o carrinho de compras */
+  margin-right: 20px;
+  font-family: 'Alfa Slab One', serif;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #364716;
+  background-color: antiquewhite;
+  border: #364716 solid 1px;
+  letter-spacing: 0.5px;
+}
+
+.botaoCarrinhoCompras:hover{
+  background-color: #364716;
+  color: antiquewhite;
 }
 
 
