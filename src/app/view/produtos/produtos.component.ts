@@ -21,6 +21,7 @@ export class FilterPipe implements PipeTransform {
   }
 }
 
+
 @Component({
   selector: 'app-produtos',
   templateUrl: './produtos.component.html',
@@ -28,13 +29,13 @@ export class FilterPipe implements PipeTransform {
 })
 
 export class ProdutosComponent implements OnInit {
-  public produtos: Produto[] = []; // Uma matriz para armazenar as vagas
+  public produtos: Produto[] = []; 
   carrinhoItens: any[] = []; // Array para armazenar os itens do carrinho
   mostrarCarrinho: boolean = false;
   termoPesquisa: string = '';
 
 
-  constructor(private _produtosService: ProdutoService, private _carrinhoService: CarrinhoService, private router: Router) { }
+  constructor(private _produtosService: ProdutoService, private router: Router) { }
   // Injeta o serviço de vagas no construtor do componente
   ngOnInit(): void {
     this.listarProdutos();
@@ -44,7 +45,7 @@ export class ProdutosComponent implements OnInit {
   listarProdutos() {
     this._produtosService.getProdutos().subscribe((retornaProduto) => {
       this.produtos = retornaProduto.map((item) => {
-        // Mapeia os dados retornados para o modelo Vaga
+        // Mapeia os dados
         return new Produto(
           item.id,
           item.nome,

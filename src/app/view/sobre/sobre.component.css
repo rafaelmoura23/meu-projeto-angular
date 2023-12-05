@@ -23,8 +23,10 @@ body{
 }
 
 .parteOne .escrita{
-  background-color: rgb(218, 216, 216);
-  width: 700px;
+  background: rgb(97,177,80);
+  background: linear-gradient(0deg, rgba(97,177,80,1) 0%, rgba(208,144,8,1) 100%);
+  letter-spacing: 0.5px;
+  width: 750px;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 5px 5px 10px #3d3d3d;
@@ -51,8 +53,10 @@ body{
 }
 
 .parteTwo .escritaDois {
-  background-color: rgb(218, 216, 216);
-  width: 700px;
+  background: rgb(97,177,80);
+  background: linear-gradient(0deg, rgba(97,177,80,1) 0%, rgba(208,144,8,1) 100%);
+  letter-spacing: 0.5px;
+  width: 750px;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 5px 5px 10px #3d3d3d;
@@ -63,7 +67,7 @@ body{
   height: 800px;
   border-radius: 30px;
   margin-bottom: 50px;
-    box-shadow: 5px 5px 10px #3d3d3d;
+  box-shadow: 5px 5px 10px #3d3d3d;
 }
 
 
@@ -80,8 +84,10 @@ body{
 }
 
 .parteThree .escritaTres {
-  background-color: rgb(218, 216, 216);
-  width: 700px;
+  background: rgb(97,177,80);
+  background: linear-gradient(0deg, rgba(97,177,80,1) 0%, rgba(208,144,8,1) 100%);
+  letter-spacing: 0.5px;
+  width: 750px;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 5px 5px 10px #3d3d3d;

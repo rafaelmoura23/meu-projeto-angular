@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body{
+    background-image:url(..//..//assets/img/switzerland.jpg);
+    background-attachment: fixed;
+    height: 200vh;
+}
+
+.divVazia{
+    height: 200px;
+}
+
+.local{
+    font-family: 'Alfa Slab One', serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-image:url(..//..//assets/img/haras.png); */
+}
+
+.describe .titulo{
+    text-align: center;
+    font-size: 25px;
+}
+
+.describe{
+    background: rgb(97,177,80);
+    background: linear-gradient(0deg, rgba(97,177,80,1) 0%, rgba(208,144,8,1) 100%);
+    letter-spacing: 0.5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #000000;
+    width: 800px;
+    padding: 15px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+}
+
+.imgLocal img{
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.contatos{
+    margin-top: 100px;
+    width: 1000px;
+    background: rgb(97,177,80);
+    background: linear-gradient(0deg, rgba(97,177,80,0.8493522408963585) 0%, rgba(208,144,8,0.8521533613445378) 100%);
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 20px;
+    font-family: 'Alfa Slab One', serif;
+    margin-left: 420px;
+    position: relative;
+}
+
+.contatos h1{
+    text-align: center;
+}
+
