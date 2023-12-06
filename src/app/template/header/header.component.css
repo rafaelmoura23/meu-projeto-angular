@@ -106,8 +106,9 @@ header .ul li a:hover {
   width: 100px;
   height: 100px;
   border-radius: 100px;
-  border: 2px solid #4c975b;
-  box-shadow: #000000 0px 0px 5px;
+  border: 2px solid #7bc98a;
+  box-shadow: #000000 0px 0px 10px;
+  margin-left: 40px;
 }
 
 .btnSair{
