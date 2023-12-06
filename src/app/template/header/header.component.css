@@ -128,4 +128,8 @@ header .ul li a:hover {
 }
 
 
+@media only screen and (max-width: 768px) {
+  .header{ flex-wrap: wrap; }
+}
+
 
