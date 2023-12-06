@@ -148,3 +148,15 @@ h1{
   margin-top: 11px;
   margin-right: 10px;
 }
+
+
+/* Media query para telas de até 768px */
+@media screen and (max-width: 768px) {
+  #productList1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #right{display: none;}
+  #left{display: none;}
+}

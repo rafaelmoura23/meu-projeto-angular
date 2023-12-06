@@ -74,3 +74,34 @@ h1{
 .patrocinador5:hover{
     transform: scale(1.2);
 }
+
+
+
+
+
+
+/* Media query cards Patrocinadores */
+@media only screen and (max-width: 768px) {
+  .all {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .all>div {
+    margin: 10px;
+    flex: 0 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+
+  .patrocinador1 img,
+  .patrocinador2 img,
+  .patrocinador3 img,
+  .patrocinador4 img,
+  .patrocinador5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+}

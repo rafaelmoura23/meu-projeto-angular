@@ -128,8 +128,62 @@ header .ul li a:hover {
 }
 
 
+/* Existing styles */
+
+/* ... */
+
+/* Media query for max-width 768px */
 @media only screen and (max-width: 768px) {
-  .header{ flex-wrap: wrap; }
+  header {
+    margin-top: 20px;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  header img {
+    height: 100px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .ul li a {
+    display: block;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .btn-contato button {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .imgLogado img {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
 }
 
+/* Media query for max-width 500px */
+@media only screen and (max-width: 500px) {
+  .search {
+    width: 100%;
+  }
+}
 
