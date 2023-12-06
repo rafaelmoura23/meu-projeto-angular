@@ -159,3 +159,34 @@
 .animais .carousel-control-next{
   display: none;
 }
+
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+  .banner {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .initial{
+    flex-basis: 100%;
+    /* Ocupa toda a largura disponível */
+    margin-top: 550px;
+  }
+
+  .animais{
+    flex-basis: 100%;
+      /* Ocupa toda a largura disponível */
+      z-index: 9;
+  }
+
+  .carroselBanners .carrosel{
+    width: 800px;
+    margin-top: 1100px;
+  }
+
+  .horsePart img{
+    width: 768px;
+  }
+}
+

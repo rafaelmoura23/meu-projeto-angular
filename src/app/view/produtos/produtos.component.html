@@ -22,8 +22,6 @@
 
 
 <section class="lista-produtos">
-    <!-- Início de um loop ngFor que percorre cada objeto 'vaga' na matriz
-    'vagas' -->
     <div *ngFor="let produto of produtos | filter: termoPesquisa; ">
         <!-- Conteúdo do card do produto -->
         <div class="card" style="width: 18rem;">
@@ -39,7 +37,6 @@
             <div class="img"><img src="assets\img\produtos\{{produto.foto}}" class="card-img-top" alt="..."></div>
 
             <div class="card-body">
-                <!-- <h5 class="product-title1">Código: {{produto.id}}</h5> -->
                 <h5 class="product-title1">{{produto.nome}}</h5>
                 <p class="author-title1">{{produto.descricao}}</p>
                 <p class="product-price1">R$ {{produto.salario}}</p>

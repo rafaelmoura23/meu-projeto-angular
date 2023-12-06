@@ -196,4 +196,12 @@
   box-shadow: 0px 0px 10px #000;
 }
 
+@media screen and (max-width: 768px) {
+  .lista-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 
