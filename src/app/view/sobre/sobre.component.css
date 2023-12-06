@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
-body{
+body {
   font-family: 'Alfa Slab One', serif;
   background-image: url(https://wallpaperboat.com/wp-content/uploads/2020/09/17/54892/farm-01.jpg);
   background-attachment: fixed;
 }
 
-.gamb{
+.gamb {
   height: 200px;
 }
 
-.parteOne{
+.parteOne {
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-bottom: 50px;
 }
 
-.parteOne h2{
+.parteOne h2 {
   text-align: center;
   font-size: 40px;
 }
 
-.parteOne .escrita{
-  background: rgb(97,177,80);
-  background: linear-gradient(0deg, rgba(97,177,80,1) 0%, rgba(208,144,8,1) 100%);
+.parteOne .escrita {
+  background: rgb(97, 177, 80);
+  background: linear-gradient(0deg, rgba(97, 177, 80, 1) 0%, rgba(208, 144, 8, 1) 100%);
   letter-spacing: 0.5px;
   width: 750px;
   border-radius: 15px;
@@ -33,14 +33,14 @@ body{
   margin-bottom: 50px;
 }
 
-.imgNice img{
+.imgNice img {
   height: 800px;
   border-radius: 30px;
   margin-bottom: 50px;
   box-shadow: 5px 5px 10px #3d3d3d;
 }
 
-.parteTwo{
+.parteTwo {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -53,8 +53,8 @@ body{
 }
 
 .parteTwo .escritaDois {
-  background: rgb(97,177,80);
-  background: linear-gradient(0deg, rgba(97,177,80,1) 0%, rgba(208,144,8,1) 100%);
+  background: rgb(97, 177, 80);
+  background: linear-gradient(0deg, rgba(97, 177, 80, 1) 0%, rgba(208, 144, 8, 1) 100%);
   letter-spacing: 0.5px;
   width: 750px;
   border-radius: 15px;
@@ -84,8 +84,8 @@ body{
 }
 
 .parteThree .escritaTres {
-  background: rgb(97,177,80);
-  background: linear-gradient(0deg, rgba(97,177,80,1) 0%, rgba(208,144,8,1) 100%);
+  background: rgb(97, 177, 80);
+  background: linear-gradient(0deg, rgba(97, 177, 80, 1) 0%, rgba(208, 144, 8, 1) 100%);
   letter-spacing: 0.5px;
   width: 750px;
   border-radius: 15px;
@@ -99,4 +99,39 @@ body{
   border-radius: 30px;
   margin-bottom: 50px;
   box-shadow: 5px 5px 10px #3d3d3d;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .parteOne {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+  }
+
+  .parteTwo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+  }
+
+  .parteThree {
+    display: flex;
+      flex-wrap: wrap;
+      margin-top: 100px;
+      justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .parteOne {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 400px;
+    justify-content: center;
+  }
+
 }
