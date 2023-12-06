@@ -149,15 +149,14 @@ body{
     font-weight: bold;
   }
 
-/* Seu CSS existente */
 
-/* Media query para telas menores que 768px */
 @media screen and (max-width: 768px) {
   .boxAll{
     width: 650px;
-    margin-top: 250px;
+    margin-top: 600px;
     display: flex;
     justify-content: center;
+
   }
 
   .wrapper{
@@ -204,7 +203,7 @@ body{
     .boxAll {
         width: 90%;
         height: auto;
-        margin-top: 50px;
+        margin-top: 300px;
       }
 
       .wrapper {

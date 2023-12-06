@@ -148,3 +148,76 @@ body {
   color: green;
   font-weight: bold;
 }
+
+
+@media screen and (max-width: 768px) {
+  .boxAll {
+    width: 650px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .wrapper {
+    width: 325px;
+  }
+
+  .imagem img {
+    width: 325px;
+  }
+
+  .wrapper h1 {
+    font-size: 28px;
+  }
+
+  .wrapper .input-box {
+    margin: 20px 0;
+  }
+
+  .input-box input {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .input-box i {
+    font-size: 18px;
+  }
+
+  .wrapper .remember-forgot {
+    font-size: 12px;
+  }
+
+  .wrapper .btn {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .wrapper .register-link {
+    font-size: 12px;
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .boxAll {
+    width: 90%;
+    height: auto;
+    margin-top: 300px;
+  }
+
+  .wrapper {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .imagem img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 250px;
+    margin-left: 45px;
+  }
+}
