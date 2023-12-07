@@ -28,7 +28,7 @@
 <h2> Gifs </h2>
 
 - Home
-<img src="/z_documentações/z_imagens/home.gif">
+<div align="center"> <img src="/z_documentações/z_imagens/home.gif"> </div>
 
 - Sobre Nós
 <img src="/z_documentações/z_imagens/sobre.gif">
