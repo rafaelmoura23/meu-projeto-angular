@@ -14,6 +14,13 @@
 
 <h2> Análise dos Layouts </h2>
 
+<h2> Tecnologias Utilizadas</h2>
+<img align="center" alt="node" height="50" width="50" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+<img align="center" alt="Js" height="50" width="50" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+<img align="center" alt="Js" height="50" width="50" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+<img align="center" alt="Js" height="50" width="50" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white">
+<img align="center" alt="Js" height="50" width="50" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+
 <h2> Figma </h2>
 
 - [Login | Cadastro | Agendamento | Consultas ](https://www.figma.com/file/KY6Jgnkwpvw9S8JeVxxQOP/Untitled?type=design&node-id=0-1&mode=design&t=Y7q5h8RFLVNVCtlX-0)
