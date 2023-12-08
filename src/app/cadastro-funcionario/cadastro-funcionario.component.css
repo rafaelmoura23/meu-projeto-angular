@@ -165,46 +165,75 @@ body {
   text-decoration: underline;
 }
 
-
-
-/* Estilos gerais */
-
-/* Estilos para telas maiores */
-/* ... */
-
-/* Estilos para telas menores usando media queries */
 @media screen and (max-width: 768px) {
-  .column {
-    flex-basis: calc(100% - 20px);
-    margin: 10px 0;
+  .boxAll{
+    width: 650px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+
   }
 
-  .hero-body {
-    padding: 20px;
+  .wrapper{
+    width: 325px;
   }
 
-  .boxAll {
-    padding: 10px;
+  .imagem img{
+    width: 325px;
   }
 
-  .imagem {
-    text-align: center;
-    margin-bottom: 20px;
+  .wrapper h1 {
+    font-size: 28px;
   }
 
-  .imagem img {
-    max-width: 100%;
-    height: auto;
+  .wrapper .input-box {
+    margin: 20px 0;
   }
 
-  .wrapper {
-    text-align: left;
-    /* Alinhar os inputs à esquerda */
+  .input-box input {
+    padding: 15px;
+    font-size: 14px;
   }
 
-  .input-box {
-    margin-bottom: 15px;
+  .input-box i {
+    font-size: 18px;
   }
 
-  /* Outros ajustes de estilo para telas menores */
+  .wrapper .remember-forgot {
+    font-size: 12px;
+  }
+
+  .wrapper .btn {
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .wrapper .register-link {
+    font-size: 12px;
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+    .boxAll {
+        width: 90%;
+        height: auto;
+        margin-top: 300px;
+      }
+
+      .wrapper {
+        width: 90%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      .imagem img {
+        width: 90%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 250px;
+        margin-left: 45px;
+      }
 }

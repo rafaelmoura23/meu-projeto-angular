@@ -198,14 +198,12 @@
 
   .initial{
     flex-basis: 100%;
-    /* Ocupa toda a largura disponível */
     margin-top: 250px;
   }
 
   .animais{
     flex-basis: 100%;
     margin-left: 100px;
-      /* Ocupa toda a largura disponível */
   }
 
   .carroselBanners .carrosel{
