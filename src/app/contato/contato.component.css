@@ -60,55 +60,85 @@ body {
 }
 
 
-/* Estilos padrão para telas maiores que 768px */
-/* ... seus estilos existentes ... */
-
-/* Estilos para telas menores que 768px */
 @media screen and (max-width: 768px) {
   .divVazia {
     height: 50px;
-    /* Reduz a altura da div vazia */
   }
 
   .local {
-    flex-direction: column;
-    /* Altera para um layout de coluna */
-    align-items: center;
-    /* Centraliza os elementos horizontalmente */
-    margin-top: 100px;
-    /* Ajusta a margem no topo */
+    flex-wrap: wrap;
+    margin-top: 500px;
   }
 
   .describe {
     width: 90%;
-    /* Reduz a largura do container de descrição */
     font-size: 18px;
-    /* Diminui o tamanho da fonte */
     padding: 10px;
-    /* Reduz o padding */
     margin-bottom: 50px;
-    /* Ajusta a margem inferior */
   }
 
   .imgLocal img {
-    width: 90%;
-    /* Reduz a largura da imagem */
-    height: auto;
-    /* Altura automática para manter a proporção */
+    position: absolute;
+    margin-left: -750px;
+    margin-top: 350px;
   }
 
   .contatos {
     width: 90%;
-    /* Reduz a largura do container de contatos */
-    margin-left: auto;
-    /* Centraliza horizontalmente */
+    margin-left: 40px;
     margin-right: auto;
-    margin-bottom: 50px;
-    /* Ajusta a margem inferior */
+    display: inline-block;
+    position:absolute;
+    margin-top: 850px;
   }
 
   .contatos h1 {
     font-size: 24px;
-    /* Diminui o tamanho da fonte do título */
+  }
+
+  body{
+    height: 480vh;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .divVazia {
+    height: 50px;
+  }
+
+  .local {
+    flex-wrap: wrap;
+    margin-top: 150px;
+  }
+
+  .describe {
+    width: 90%;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .imgLocal img {
+    position: absolute;
+    margin-left: -940px;
+    margin-top: 250px;
+  }
+
+  .contatos {
+    width: 90%;
+    margin-left: 55px;
+    margin-right: auto;
+    display: inline-block;
+    position:absolute;
+    margin-top: 850px;
+  }
+
+  .contatos h1 {
+    font-size: 24px;
+  }
+
+  body{
+    height: 350vh;
   }
 }
