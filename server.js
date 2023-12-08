@@ -80,37 +80,22 @@ app.post('/api/usuarios', (req, res) => {
     });
   });
 
+  app.post('/api/compras', (req, res) => {
+    const { carrinhoItens } = req.body;
 
+    // Mapeia os itens do carrinho para um array de valores
+    const values = carrinhoItens.map(item => [item.nome, item.salario]);
 
+    const insertCompraQuery = 'INSERT INTO compras (produto, preco) VALUES ?';
 
-// Rota para salvar os itens do carrinho no banco de dados
-app.post('/api/itens', (req, res) => {
-  const carrinhoItens = req.body.itens; // Supondo que os itens estão no formato { nome: string, preco: number }
-
-  // Verificar se há itens para salvar
-  if (!carrinhoItens || carrinhoItens.length === 0) {
-    res.status(400).json({ error: 'Nenhum item no carrinho para salvar.' });
-    return;
-  }
-
-  // Mapear os itens para o formato que será inserido no banco de dados
-  const valoresItens = carrinhoItens.map(item => [item.nome, item.preco]);
-
-  // Consulta para inserir os itens do carrinho na tabela correspondente
-  const insertQuery = 'INSERT INTO itens_carrinho (nome, preco) VALUES ?';
-
-  // Executar a consulta no banco de dados
-  db.query(insertQuery, [valoresItens], (err, result) => {
-    if (err) {
-      res.status(500).json({ error: 'Erro ao salvar itens do carrinho no banco de dados.' });
-    } else {
-      res.json({ message: 'Itens do carrinho salvos com sucesso no banco de dados!' });
-    }
+    db.query(insertCompraQuery, [values], (err, result) => {
+      if (err) {
+        res.status(500).json({ error: 'Erro ao adicionar o produto no banco de dados.' });
+      } else {
+        res.json({ message: 'Produtos adicionados com sucesso!' });
+      }
+    });
   });
-});
-
-
-
 
 
 
