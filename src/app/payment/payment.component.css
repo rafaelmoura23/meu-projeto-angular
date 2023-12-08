@@ -58,3 +58,7 @@ h2{
 .divVazia{
     height:200px;
 }
+
+@media(max-width: 768px){
+  h2{margin-top: 350px;}
+}

@@ -3,6 +3,7 @@ body {
     background-color: rgb(59, 105, 59);
     font-family: 'Manrope', sans-serif;
 }
+
 h2 {
     color: white; /* Substitua "red" pela cor desejada */
     font-size: 50px; /* Substitua "24px" pelo tamanho de fonte desejado */
@@ -11,18 +12,17 @@ h2 {
     text-align: center;
   }
 
-
-
 .card{
-  margin-left: 450px;
+  margin-left:300px;
   border-radius: 25px;
   background-color: transparent;
+  width: 1300px;
 }
 
 .card img{
   border-radius: 25px;
   width: 100%;
-    box-shadow: 0px 0px 15px #000000;
+  box-shadow: 0px 0px 15px #000000;
 }
 
 
@@ -40,7 +40,7 @@ button {
  align-items: center;
  border-radius: 5px;
  background: #21380f;
-  font-family: 'Alfa Slab One', serif;
+font-family: 'Alfa Slab One', serif;
  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
  overflow: hidden;
  border: none;
@@ -92,4 +92,20 @@ button:hover span {
  100% {
   transform: scale(1);
  }
+}
+
+
+@media screen and (max-width: 768px) {
+  h2{margin-top: 550px;}
+  .card{
+    margin-left: 10px;
+    width: 750px;
+  }
+  .card img{
+    width: 750px;
+  }
+  button{
+    margin-left: 320px;
+  }
+
 }
