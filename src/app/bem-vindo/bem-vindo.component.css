@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 
-
 .banner {
   height: 100vh;
   background-image: url(..//../assets/img/field-grass-landscape-farm.jpg);
@@ -102,8 +101,6 @@
 }
 
 
-
-
 /* Carrosel Bootstrap */
 
 .carrosel {
@@ -161,4 +158,61 @@
 
 .animais .carousel-control-next{
   display: none;
+}
+
+
+/* Estilos para telas menores que 768px */
+@media (max-width: 768px) {
+  .banner {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .initial{
+    flex-basis: 100%;
+    /* Ocupa toda a largura disponível */
+    margin-top: 550px;
+  }
+
+  .animais{
+    flex-basis: 100%;
+      /* Ocupa toda a largura disponível */
+      z-index: 9;
+  }
+
+  .carroselBanners .carrosel{
+    width: 800px;
+    margin-top: 1300px;
+  }
+
+  .horsePart img{
+    width: 768px;
+  }
+}
+
+@media(max-width: 1024px){
+  .banner {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .initial{
+    flex-basis: 100%;
+    margin-top: 250px;
+  }
+
+  .animais{
+    flex-basis: 100%;
+    margin-left: 100px;
+  }
+
+  .carroselBanners .carrosel{
+    width: 900px;
+    margin-top: 780px;
+    margin-left: 27px;
+  }
+
+  .horsePart img{
+    width: 900px;
+  }
 }
