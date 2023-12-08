@@ -139,7 +139,7 @@
 }
 
 
-/* Estilos para a seção do carrinho */
+/* Estilização para a seção do carrinho */
 .carrinho {
   position:fixed;
   font-family: 'Alfa Slab One', serif;
@@ -196,11 +196,31 @@
   box-shadow: 0px 0px 10px #000;
 }
 
-@media screen and (max-width: 768px) {
-  .lista-produtos{
-    display: flex;
-    flex-wrap: wrap;
+/* Estilos para telas com largura máxima de 768px */
+@media (max-width: 768px) {
+  .lista-produtos {
+    width: 100%;
+    margin-left: 0;
     justify-content: center;
+    margin-top: 100px;
+  }
+
+  .lista-produtos .card {
+    width: 90%;
+    margin: 20px 0;
+  }
+
+  .filtroAndCart{
+    margin-top: 600px;
+  }
+
+
+
+  .barraPesquisa,
+  .botaoCarrinhoCompras {
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 10px;
   }
 }
 
