@@ -115,12 +115,14 @@ form {
   .buttonsForms {
     display: flex;
     justify-content: space-around;
-
-
   }
 
   h2{
     display: flex;
     justify-content: center;
     margin: 25px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .formulario{margin-top: 500px;}
   }
