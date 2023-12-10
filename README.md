@@ -63,7 +63,7 @@
 
 
 ## `EXPECTATIVAS 🧠`
-### Criar um website completo que atenda todas as `expectativas propostas pelos Professores`:
+### Criar um website completo que atenda todas as `expectativas propostas`:
 #### - Site Responsivo
 #### - Interface Agradável (UX|UI)
 #### - Design Estético (UX|UI)
@@ -73,11 +73,6 @@
 #### - Testes e depuração
 #### - Documentação do processo
 
-### Criar um website completo que atenda todas as `expectativas dos integrantes do Grupo`:
-#### - Site Minimalista
-#### - Modos de Cor (Modo Escuro) em pelo menos uma página
-#### - Implementação de animações suaves
-#### - Validação de entradas (banco de dados)
 
 <p align="center">
     <img src="https://imagens.mdig.com.br/thbs/45184mn.jpg" height="400" tittle="logo_animalia">
