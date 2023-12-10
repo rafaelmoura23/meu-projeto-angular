@@ -1,7 +1,7 @@
-<h1 align="center"> PROJETO WEBSITE COMPLETO | PETSHOP 🐶🐱🐴 </h1>
+<h1 align="center"> PROJETO WEBSITE | PETSHOP 🐶🐱🐴 </h1>
 
 <p align="center">
-    <img src="https://i.pinimg.com/originals/99/9f/6a/999f6a0b233dc991581ea9ee303d24b6.gif" height="400" tittle="logo_animalia">
+    <img src="https://imagens.mdig.com.br/thbs/45184mn.jpg" height="400" tittle="logo_animalia">
 </p> 
 
 ## `OBJETIVO` 🎯:
@@ -9,8 +9,12 @@
 ### - Implementar um site com uma mistura de PetShop com Haras 🧐 `COMO ASSIM?`
 ### - Criar uma página de venda de produtos de PetShop, porém oferecer treinamentos para animais, incluindo cavalos e também no PetShop incluir produtos para animais mais "selvagens|robustos" como é o cavalo.
 
-## `MARCA` 💡 : 
-## ANIMALIA 
+## `MARCA E LOGO` 💡 : 
+<p align="left">
+  <h2> ANIMALIA </h2>
+    <img src="/z_documentações/z_imagens/Logo_animalia.png" height="200" tittle="logo_animalia">
+    <p>Gerado por: https://www.bing.com/create </p>
+</p>
 
 ## `PÚBLICO-ALVO` :
 ### - Donos de Animais de Estimação:
@@ -20,13 +24,6 @@
 ### - Entusiastas de esporte de animais:
 ### - Donos de Animais com problemas Comportamentais:
 ### - Pessoas que buscam produtos para seus Bichinhos:
-
-
-## `lOGO` 
-<p align="left">
-    <img src="/z_documentações/z_imagens/Logo_animalia.png" height="200" tittle="logo_animalia">
-    <p>Gerado por: https://www.bing.com/create </p>
-</p>
 
 ## `FIGMA` 🎨 : 
 ### - [Login | Cadastro | Agendamento | Consultas ](https://www.figma.com/file/KY6Jgnkwpvw9S8JeVxxQOP/Untitled?type=design&node-id=0-1&mode=design&t=Y7q5h8RFLVNVCtlX-0)
@@ -87,10 +84,6 @@
   </tbody>
 </table>
 
-
-
-
-
 ## `EXPECTATIVAS 🧠`
 ### Criar um website completo que atenda todas as `expectativas propostas`:
 #### - Site Responsivo
@@ -102,12 +95,14 @@
 #### - Testes e depuração
 #### - Documentação do processo
 
-## `TRABALHO EM GRUPO`
-## [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
+## `OUTRAS DOCUMENTAÇÕES 📃`
+### - [Análise do Projeto](https://github.com/rafaelmoura23/meu-projeto-angular/blob/master/z_documenta%C3%A7%C3%B5es/Documenta%C3%A7%C3%A3o.md)
+### - [Cronograma de Trabalho](https://github.com/rafaelmoura23/meu-projeto-angular/blob/master/z_documenta%C3%A7%C3%B5es/Cronograma.md)
+### - [Briefing](https://github.com/rafaelmoura23/meu-projeto-angular/blob/master/z_documenta%C3%A7%C3%B5es/briefing.txt)
+### - [Funcionamento e Instalação das Tecnologias](https://github.com/rafaelmoura23/meu-projeto-angular/blob/master/z_documenta%C3%A7%C3%B5es/Configura%C3%A7%C3%B5es.md)
 
-<p align="center">
-    <img src="https://imagens.mdig.com.br/thbs/45184mn.jpg" height="400" tittle="logo_animalia">
-</p> 
+## `TRABALHO EM GRUPO`
+### - [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
 
 ## `AUTORES`
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770407?v=4" width=115><br><sub>Leticia</sub>](https://github.com/lets02) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/141771115?v=4" width=115><br><sub>Matheus</sub>](https://github.com/mattmarquess) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770371?v=4" width=115><br><sub>Rafael</sub>](https://github.com/rafaelmoura23) |
