@@ -82,12 +82,12 @@
     </tr>
     <tr>
       <td align="center">  <img src= "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> </td>
-       <td align="center"> <img src= " " /> </td>
+       <td align="center">  </td>
       <td align="center">  <img src= "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </td>
     </tr>
     <tr>
       <td align="center">  <img src= "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> </td>
-      <td align="center">  <img src= " " /> </td>
+      <td align="center">  </td>
       <td align="center">  <img src= "https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> </td>
     </tr>
   </tbody>
