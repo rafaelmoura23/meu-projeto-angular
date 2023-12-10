@@ -110,5 +110,5 @@
 </p> 
 
 ## `AUTORES`
-| [<img loading="lazy" src="" width=115><br><sub>Leticia</sub>]() |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770371?v=4" width=115><br><sub>Rafael Moura</sub>](https://github.com/rafaelmoura23) |  [<img loading="lazy" src="" ><br><sub>Matheus</sub>]() |
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770407?v=4" width=115><br><sub>Leticia</sub>](https://github.com/lets02) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/141771115?v=4" width=115><br><sub>Matheus</sub>](https://github.com/mattmarquess) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123770371?v=4" width=115><br><sub>Rafael</sub>](https://github.com/rafaelmoura23) |
 | :---: | :---: | :---: |
