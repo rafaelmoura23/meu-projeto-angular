@@ -30,26 +30,4 @@
 - Home
 <div align="center"> <img src="/z_documentações/z_imagens/home.gif"> </div>
 
-- Sobre Nós
-<img src="/z_documentações/z_imagens/sobre.gif">
-
-- Contato
-<img src="/z_documentações/z_imagens/contato.gif">
-
-- Login
-<img src="/z_documentações/z_imagens/login.gif">
-
-- Cadastro
-<img src="/z_documentações/z_imagens/cadastro.gif">
-
-- Produtos
-<img src="/z_documentações/z_imagens/produtos.gif">
-
-- Cadastro de Produtos
-<img src="/z_documentações/z_imagens/cadastro_produtos.gif">
-
-- Carrinho de Compras | Pedidos
-<img src="/z_documentações/z_imagens/carrinho.gif">
-
-- Filtro
-<img src="/z_documentações/z_imagens/filtro.gif">
+- [Animações das Páginas do Site](https://drive.google.com/drive/folders/1Yc0UahIt7qEAvmGsEXFa2381Z6i4F4iY?usp=sharing)
