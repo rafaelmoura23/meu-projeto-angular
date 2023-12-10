@@ -50,19 +50,19 @@
 - ### Iniciar o carrinho de compras em js ✅
   
 ## `SEMANA 8` | 04.12 - 08.12 - `SPRINT FINAL`
-- ### Inserir responsividade em todas as páginas (menu hamburguer)
-- ### Terminar o carrinho de compras
-- ### Página de cadastro e login para `funcionários` com CNPJ
-- ### Terminar o filtro por pesquisa
-- ### Tentar a integração da página de pagamento com o carrinho de compras
-- ### Terminar a parte do contato na página Sobre
-- ### Finalizar a `documentação` 
-- ## `ENTREGA - 08/12`
+- ### Inserir responsividade em todas as páginas ✅
+- ### Terminar o carrinho de compras ✅
+- ### Página de cadastro e login para `funcionários` com CNPJ (falta integrar com o backend) ✅
+- ### Terminar o filtro por pesquisa ✅
+- ### Tentar a integração da página de pagamento com o carrinho de compras ✅
+- ### Terminar a parte do contato na página Sobre ✅
 
-## `SEMANA 9` | 11.12 - 15.12 - `APRESENTAÇÃO`
+## `SEMANA 9` | 11.12 - 15.12 - `ENTREGA E APRESENTAÇÃO`
+- ### Finalizar a `documentação` 
+- ### Entrega da Documentação
 - ### Apresentação do Projeto `FINALIZADO` 🎆🎉✨
 
 ## Outras Implementações
-- ### Carrinho de Compras 
-- ### Registro da compra em um banco de dados
-- ### Fotinha e nome no perfil do usuário
+- ### Registro da compra em um banco de dados 🛠️
+- ### Fotinha e nome no perfil do usuário 🛠️
+- ### Modos de Cor (dark-mode) ❌
