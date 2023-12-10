@@ -11,7 +11,7 @@
 
 ## `MARCA E LOGO` 💡 : 
 <p align="left">
-  <h2> ANIMALIA </h2>
+  <h2> ANIMALIA - Onde o Amor pelos Pets encontra a Majestade dos Cavalos!</h2>
     <img src="/z_documentações/z_imagens/Logo_animalia.png" height="200" tittle="logo_animalia">
     <p>Gerado por: https://www.bing.com/create </p>
 </p>
