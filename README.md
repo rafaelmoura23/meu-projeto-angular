@@ -9,9 +9,6 @@
 ### - Implementar um site com uma mistura de PetShop com Haras 🧐 `COMO ASSIM?`
 ### - Criar uma página de venda de produtos de PetShop, porém oferecer treinamentos para animais, incluindo cavalos e também no PetShop incluir produtos para animais mais "selvagens|robustos" como é o cavalo.
 
-## `TRABALHO EM GRUPO`
-## [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
-
 ## `MARCA` 💡 : 
 ## ANIMALIA 
 
@@ -49,11 +46,8 @@
 ### - Index
 ### - Login
 ### - Cadastro
-### - Agendamento de Serviços
 ### - Catálogo de Produtos (Carrinho de Compras)
 ### - Checkout(BUY)
-
-** ### - *Inserir gifs do site funcionando **
 
 ## `TECNOLOGIAS` 🛠 :
 <table>
@@ -94,6 +88,9 @@
 </table>
 
 
+
+
+
 ## `EXPECTATIVAS 🧠`
 ### Criar um website completo que atenda todas as `expectativas propostas`:
 #### - Site Responsivo
@@ -105,6 +102,8 @@
 #### - Testes e depuração
 #### - Documentação do processo
 
+## `TRABALHO EM GRUPO`
+## [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
 
 <p align="center">
     <img src="https://imagens.mdig.com.br/thbs/45184mn.jpg" height="400" tittle="logo_animalia">
