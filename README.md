@@ -61,8 +61,7 @@
     <tr>
       <th> Linguagens </th>
       <th> Frameworks </th>
-      <th> Banco de Dados </th>
-      <th> Ferramentas </th>
+      <th> Outras Ferramentas </th>
     </tr>
   </thead>
   <tbody>
@@ -70,21 +69,26 @@
       <td align="center"> <img src= "https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" /> </td>
       <td align="center"> <img src= "https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" /> </td>
       <td align="center"> <img src= "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" /> </td>
-      <td align="center">  <img src= "https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> </td>
     </tr>
     <tr>
       <td align="center"> <img src= "https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" /> </td>
       <td align="center">  <img src= "https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> </td>
-      <td align="center">  <img src= " " /> </td>
       <td align="center">  <img src= "https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" /> </td>
     </tr>
     <tr>
       <td align="center">  <img src= "https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> </td>
-      <td align="center">  <img src= " " /> </td>
+      <td align="center">  <img src= "https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" /> </td>
+      <td align="center">  <img src= "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" /> </td>
     </tr>
     <tr>
       <td align="center">  <img src= "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> </td>
+       <td align="center"> <img src= " " /> </td>
+      <td align="center">  <img src= "https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> </td>
+    </tr>
+    <tr>
+      <td align="center">  <img src= "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" /> </td>
       <td align="center">  <img src= " " /> </td>
+      <td align="center">  <img src= "https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /> </td>
     </tr>
   </tbody>
 </table>
