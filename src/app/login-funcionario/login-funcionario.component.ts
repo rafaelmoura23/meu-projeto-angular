@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AuthFuncionariosService } from '..//auth-funcionarios.service';
 import { Router } from '@angular/router';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-login-funcionario',
