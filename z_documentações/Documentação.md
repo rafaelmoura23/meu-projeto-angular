@@ -26,8 +26,7 @@
 - [Outros](https://www.figma.com/file/3MOXA2pBxNc3jWURfs90k2/Untitled?type=design&mode=design&t=EDkq14K1So4eBTen-0)
 
 <h2> Gifs </h2>
-
+// Adcionar fotos
 - Home
-<div align="center"> <img src="/z_documentações/z_imagens/home.gif"> </div>
 
 - [Animações das Páginas do Site](https://drive.google.com/drive/folders/1Yc0UahIt7qEAvmGsEXFa2381Z6i4F4iY?usp=sharing)
