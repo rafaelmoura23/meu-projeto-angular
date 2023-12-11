@@ -19,6 +19,7 @@ export class LoginComponent {
     this.authService.login(this.username, this.password)
       .subscribe(
         response => {
+          alert("bem vindo " + this.username);
           console.log('Login bem-sucedido!', response);
           this.successMessage = 'Login feito com Sucesso';
 

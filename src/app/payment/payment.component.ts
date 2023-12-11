@@ -26,10 +26,15 @@ export class PaymentComponent implements OnInit {
   calcularTotal(): number {
     let total = 0;
     for (let item of this.carrinhoItens) {
-        total += parseFloat(item.salario);
+      const salarioNumerico = parseFloat(item.salario.replace(',', '.')); // Troca vírgula por ponto, se necessário
+      if (!isNaN(salarioNumerico)) {
+        total += salarioNumerico;
+      }
     }
-    return total;
+    return parseFloat(total.toFixed(2));
   }
+
+
   salvarCompraNoBancoDeDados(carrinhoItens: any[]): void {
     const url = 'http://localhost:3000/api/compra';
 

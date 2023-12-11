@@ -25,6 +25,7 @@ export class CadastroFuncionarioComponent {
       this.funcionarioService.cadastrarFuncionario(this.funcionario)
         .subscribe(
           response => {
+            alert("Usuário Cadastrado com Sucesso! ✔")
             console.log('Usuário cadastrado com sucesso!', response);
             // Limpar o formulário após o cadastro
             this.router.navigate(['/loginFuncionario']);

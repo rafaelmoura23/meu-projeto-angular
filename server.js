@@ -128,6 +128,7 @@ app.post('/api/loginFuncionario', (req, res) => {
 
     if (results.length === 1) {
       // Credenciais corretas, pode gerar um token de autenticação aqui
+      alert("Login Efetuado, seja bem vindo" + username);
       res.json({ message: 'Login bem-sucedido!' });
     } else {
       // Credenciais incorretas

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthFuncionariosService } from '../auth-funcionarios.service';
+import { AuthFuncionariosService } from '..//auth-funcionarios.service';
 import { Router } from '@angular/router';
 
 @Component({

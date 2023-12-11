@@ -72,23 +72,22 @@ toggleCarrinho() {
 calcularTotal(): number {
   let total = 0;
   for (let item of this.carrinhoItens) {
-      total += parseFloat(item.salario); 
+    const salarioNumerico = parseFloat(item.salario.replace(',', '.')); // Troca vírgula por ponto, se necessário
+    if (!isNaN(salarioNumerico)) {
+      total += salarioNumerico;
+    }
   }
-  return total;
+  return parseFloat(total.toFixed(2));
 }
+
 
 fecharPedido() {
   // Supondo que você já tenha injetado o CarrinhoService no construtor
   const itensCarrinho = this.carrinhoItens;
-
-  // Verifica se há itens no carrinho antes de redirecionar para o pagamento
   if (itensCarrinho.length > 0) {
-    // Redireciona para a página de pagamento e passa os itens do carrinho como parâmetro na URL
     this.router.navigate(['/pagamento'], { queryParams: { itens: JSON.stringify(itensCarrinho) } });
   } else {
-    // Caso não haja itens no carrinho, pode adicionar um feedback ou mensagem para o usuário
     console.log('Seu carrinho está vazio');
-    // Ou qualquer ação que você deseja realizar quando o carrinho estiver vazio
   }
 }
 
