@@ -92,6 +92,7 @@
   - sadasd
 
 ## `PAGAMENTO`
+
 <img align="center" alt="angular" src="/z_documentações/z_imagens/pagamentos.png>
 
   - ssdf
