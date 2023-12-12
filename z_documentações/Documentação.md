@@ -31,37 +31,51 @@
 
 ###  `HOME`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/home.png">
+
   - ssdfsdf
   - dsfdsf
   - sdf
+
 ### `HEADER`
+
   - sfsdf
   - fsdf
+
 ###  `PRODUTOS`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/produtos.png">
+
   - ssdf
   - dsf
   - sadasd
+
 ###  `CADASTRO DE PRODUTOS`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/painel-produtos.png">
+
   - ssdf
   - dsf
   - sadasd
+
 ###  `SOBRE NÓS | CONTATOS | TREINAMENTOS`
   - ssdf
   - dsf
   - sadasd
+
 ###  `LOGIN`
   - ssdf
   - dsf
   - sadasd
+
 ###  `CADASTRO`
   - ssdf
   - dsf
   - sadasd
+
 ### `CARRINHO DE COMPRAS | FILTRO`
+
   - ssdf
   - dsf
   - sadasd
+
 ### `PAGAMENTO`
   - ssdf
   - dsf
