@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+### Running the project
+
+In `root directory` execute this commands:
+ `- npm install -g @angular/cli`
+ `- npm install`
+ `- npm install json-server@0.17.4`
+ `- node server.js (porta 3000)`
+ `- npm start`
+
+In `assets` execute this command:
+ `- npx json-server --watch db.json --port 3030 => assets`
