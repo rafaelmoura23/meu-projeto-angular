@@ -54,14 +54,14 @@
   - dsf
   - sadasd
 
-###  `CADASTRO DE PRODUTOS`
+##  `CADASTRO DE PRODUTOS`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/painel-produtos.png">
 
   - ssdf
   - dsf
   - sadasd
 
-###  `SOBRE NÓS | CONTATOS | TREINAMENTOS`
+## `SOBRE NÓS | CONTATOS | TREINAMENTOS`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/sobre-nos.png">
 <img align="center" alt="angular" src="/z_documentações/z_imagens/contato.png">
 <img align="center" alt="angular" src="/z_documentações/z_imagens/treinamentos.png">
@@ -70,28 +70,28 @@
   - dsf
   - sadasd
 
-###  `LOGIN`
+## `LOGIN`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/login.png">
 
   - ssdf
   - dsf
   - sadasd
 
-###  `CADASTRO`
+##  `CADASTRO`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/cadastro.png">
 
   - ssdf
   - dsf
   - sadasd
 
-### `CARRINHO DE COMPRAS | FILTRO`
+## `CARRINHO DE COMPRAS | FILTRO`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/carrinho.png">
 
   - ssdf
   - dsf
   - sadasd
 
-### `PAGAMENTO`
+## `PAGAMENTO`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/pagamentos.png>
 
   - ssdf
