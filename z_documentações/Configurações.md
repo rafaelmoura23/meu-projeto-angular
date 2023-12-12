@@ -41,14 +41,15 @@ In `assets` execute this command:
 
 ### Tables Cretion inside of your BD
 
-```CREATE TABLE `usuarios`(
+```
+CREATE TABLE `usuarios`(
 nome VARCHAR(50) NOT NULL,
 email VARCHAR(50) NOT NULL,
 senha VARCHAR(50) NOT NULL,
 PRIMARY KEY(email)
 )
-```
 
+```
 CREATE TABLE `funcionarios`(
   nome VARCHAR(50) NOT NULL,
   email VARCHAR(50) NOT NULL,
