@@ -25,8 +25,45 @@
 - [Banners](https://www.figma.com/file/aC5XRBj3rbvZstw7mt1quQ/Untitled?type=design&node-id=0-1&mode=design&t=EDkq14K1So4eBTen-0)
 - [Outros](https://www.figma.com/file/3MOXA2pBxNc3jWURfs90k2/Untitled?type=design&mode=design&t=EDkq14K1So4eBTen-0)
 
-<h2> Gifs </h2>
-// Adcionar fotos
-- Home
+<h2> Páginas/Componentes </h2>
 
-- [Animações das Páginas do Site](https://drive.google.com/drive/folders/1Yc0UahIt7qEAvmGsEXFa2381Z6i4F4iY?usp=sharing)
+#### [Animações das Páginas do Site](https://drive.google.com/drive/folders/1Yc0UahIt7qEAvmGsEXFa2381Z6i4F4iY?usp=sharing)
+
+###  `HOME`
+  - ssdfsdf
+  - dsfdsf
+  - sdf
+### `HEADER`
+  - sfsdf
+  - fsdf
+###  `PRODUTOS`
+  - ssdf
+  - dsf
+  - sadasd
+###  `CADASTRO DE PRODUTOS`
+  - ssdf
+  - dsf
+  - sadasd
+###  `SOBRE NÓS | CONTATOS | TREINAMENTOS`
+  - ssdf
+  - dsf
+  - sadasd
+###  `LOGIN`
+  - ssdf
+  - dsf
+  - sadasd
+###  `CADASTRO`
+  - ssdf
+  - dsf
+  - sadasd
+### `CARRINHO DE COMPRAS | FILTRO`
+  - ssdf
+  - dsf
+  - sadasd
+### `PAGAMENTO`
+  - ssdf
+  - dsf
+  - sadasd
+
+
+
