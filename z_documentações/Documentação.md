@@ -56,27 +56,38 @@
   - sadasd
 
 ###  `SOBRE NÓS | CONTATOS | TREINAMENTOS`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/sobre-nos.png">
+<img align="center" alt="angular" src="/z_documentações/z_imagens/contato.png">
+<img align="center" alt="angular" src="/z_documentações/z_imagens/treinamentos.png">
+
   - ssdf
   - dsf
   - sadasd
 
 ###  `LOGIN`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/login.png">
+
   - ssdf
   - dsf
   - sadasd
 
 ###  `CADASTRO`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/cadastro.png">
+
   - ssdf
   - dsf
   - sadasd
 
 ### `CARRINHO DE COMPRAS | FILTRO`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/carrinho.png">
 
   - ssdf
   - dsf
   - sadasd
 
 ### `PAGAMENTO`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/pagamentos.png>
+
   - ssdf
   - dsf
   - sadasd
