@@ -39,7 +39,7 @@ In `root directory` execute this commands:
 In `assets` execute this command:
  `- npx json-server --watch db.json --port 3030 => assets`
 
-### Tables Cretion inside of your BD
+### Tables Creation inside of your BD
 
 ```
 CREATE TABLE `usuarios`(
@@ -48,6 +48,7 @@ email VARCHAR(50) NOT NULL,
 senha VARCHAR(50) NOT NULL,
 PRIMARY KEY(email)
 )
+```
 
 ```
 CREATE TABLE `funcionarios`(
@@ -58,3 +59,4 @@ CREATE TABLE `funcionarios`(
   senha VARCHAR(50) NOT NULL,
   PRIMARY KEY(cnpj)
 )
+```
