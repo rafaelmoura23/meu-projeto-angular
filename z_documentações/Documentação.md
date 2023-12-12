@@ -30,6 +30,7 @@
 #### [Animações das Páginas do Site](https://drive.google.com/drive/folders/1Yc0UahIt7qEAvmGsEXFa2381Z6i4F4iY?usp=sharing)
 
 ###  `HOME`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/home.png">
   - ssdfsdf
   - dsfdsf
   - sdf
@@ -37,6 +38,7 @@
   - sfsdf
   - fsdf
 ###  `PRODUTOS`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/produtos.png">
   - ssdf
   - dsf
   - sadasd
