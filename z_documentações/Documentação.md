@@ -29,19 +29,25 @@
 
 #### [Animações das Páginas do Site](https://drive.google.com/drive/folders/1Yc0UahIt7qEAvmGsEXFa2381Z6i4F4iY?usp=sharing)
 
-###  `HOME`
+##  `HOME`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/home.png">
 
   - ssdfsdf
   - dsfdsf
   - sdf
 
-### `HEADER`
+## `HEADER`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/header_before.png">
 
   - sfsdf
   - fsdf
 
-###  `PRODUTOS`
+<img align="center" alt="angular" src="/z_documentações/z_imagens/header_after.png">
+
+  - sfsdf
+  - fsdf
+
+##  `PRODUTOS`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/produtos.png">
 
   - ssdf
