@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-### Running the project
+## Running the project
 
 In `root directory` execute this commands:
  `- npm install -g @angular/cli`
@@ -39,7 +39,7 @@ In `root directory` execute this commands:
 In `assets` execute this command:
  `- npx json-server --watch db.json --port 3030 => assets`
 
-### Tables Creation inside of your BD
+## Tables Creation inside of your BD
 
 ```
 CREATE TABLE `usuarios`(
