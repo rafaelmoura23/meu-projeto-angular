@@ -39,13 +39,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4E6424&repeat=false&random=false&width=435&lines=%234E6424)](https://git.io/typing-svg)
 
 
-## `FUNCIONALIDADES` ⚔ :
-### - Index
-### - Login
-### - Cadastro
-### - Catálogo de Produtos (Carrinho de Compras)
-### - Checkout(BUY)
-
 ## `TECNOLOGIAS` 🛠 :
 <table>
   <thead>
