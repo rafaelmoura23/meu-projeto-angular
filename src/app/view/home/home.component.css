@@ -190,29 +190,4 @@
   }
 }
 
-@media(max-width: 1024px){
-  .banner {
-    flex-wrap: wrap;
-    align-items: center;
-  }
 
-  .initial{
-    flex-basis: 100%;
-    margin-top: 250px;
-  }
-
-  .animais{
-    flex-basis: 100%;
-    margin-left: 100px;
-  }
-
-  .carroselBanners .carrosel{
-    width: 900px;
-    margin-top: 780px;
-    margin-left: 27px;
-  }
-
-  .horsePart img{
-    width: 900px;
-  }
-}
