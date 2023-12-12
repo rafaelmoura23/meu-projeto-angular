@@ -42,6 +42,7 @@ In `root directory` execute this commands:
  `- npm start`
 
 In `assets` execute this command:
+
  `- npx json-server --watch db.json --port 3030 => assets`
 
 ## Tables Creation inside of your BD
