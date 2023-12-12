@@ -32,9 +32,9 @@
 ##  `HOME`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/home.png">
 
-  - ssdfsdf
-  - dsfdsf
-  - sdf
+  - Integração com `BOOTSTRAP` para criação dos Banners
+  - Criação dos Banners no figma
+  - Criação 
 
 ## `HEADER`
 <img align="center" alt="angular" src="/z_documentações/z_imagens/header_before.png">
