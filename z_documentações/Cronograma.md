@@ -58,11 +58,12 @@
 - ### Terminar a parte do contato na página Sobre ✅
 
 ## `SEMANA 9` | 11.12 - 15.12 - `ENTREGA E APRESENTAÇÃO`
-- ### Finalizar a `documentação` 
-- ### Entrega da Documentação
+- ### Finalizar a `documentação` ✅ 
+- ### Entrega da Documentação ✅
 - ### Apresentação do Projeto `FINALIZADO` 🎆🎉✨
 
 ## Outras Implementações
 - ### Registro da compra em um banco de dados 🛠️
 - ### Fotinha e nome no perfil do usuário 🛠️
 - ### Modos de Cor (dark-mode) ❌
+- ### Autenticação de Funcionários 🛠️
