@@ -30,10 +30,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Running the project
 
 In `root directory` execute this commands:
+
  `- npm install -g @angular/cli`
+
  `- npm install`
+
  `- npm install json-server@0.17.4`
+
  `- node server.js (porta 3000)`
+
  `- npm start`
 
 In `assets` execute this command:
