@@ -98,6 +98,8 @@
 ### - [BING IMAGENS](https://www.bing.com/images/create)
 ### - [CHAT GPT](https://chat.openai.com/)
 ### - [YOUTUBE](https://www.youtube.com/)
+### - [ANGULAR](https://www.youtube.com/embed/vJt_K1bFUeA?si=0UdvLgkjzcSvq565)
+### - [STACKOVERFLOW](https://stackoverflow.com/)
 
 ## `TRABALHO EM GRUPO`
 ### - [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
