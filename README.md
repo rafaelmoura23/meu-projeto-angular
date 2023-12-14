@@ -94,6 +94,11 @@
 ### - [Briefing](https://github.com/rafaelmoura23/meu-projeto-angular/blob/master/z_documenta%C3%A7%C3%B5es/briefing.txt)
 ### - [Funcionamento e Instalação das Tecnologias](https://github.com/rafaelmoura23/meu-projeto-angular/blob/master/z_documenta%C3%A7%C3%B5es/Configura%C3%A7%C3%B5es.md)
 
+## `REFERÊNCIAS ✨`
+### - [BING IMAGENS](https://www.bing.com/images/create)
+### - [CHAT GPT](https://chat.openai.com/)
+### - [YOUTUBE](https://www.youtube.com/)
+
 ## `TRABALHO EM GRUPO`
 ### - [Trello](https://trello.com/b/7hb7htn4/projeto-pwbe-pwfe-2023)
 
